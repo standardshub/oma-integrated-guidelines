@@ -6,58 +6,59 @@
   <script src="http://openmobilealliance.github.io/Tools/builds/respec-oma-common.js" async class="remove"></script>
   <script class="remove">
     var respecConfig = {
-            // for editor use
-            docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
-            subtitle: "OMA Online Editor Guidelines",
-            shortName:  "EditorGuidelines",
-            otherLinks: [{
-              key: "Other Link",
-              data: [{
-                value: "Link Name",
-                href: "#location"
-              }]
-            }],
-            editors: [{
-              name:       "Joaquin Prado",
-              url:        "",
-              company:    "",
-              companyURL: "",
-              mailto:     "jprado@omaorg.org",
-              note:       "editor note"
-            }],
+                // for editor use
+                docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
+                subtitle: "OMA Online Editor Guidelines",
+                shortName:  "EditorGuidelines",
+                otherLinks: [{
+                  key: "Other Link",
+                  data: [{
+                    value: "Link Name",
+                    href: "#location"
+                  }]
+                }],
+                editors: [{
+                  name:       "Joaquin Prado",
+                  url:        "",
+                  company:    "",
+                  companyURL: "",
+                  mailto:     "jprado@omaorg.org",
+                  note:       "editor note"
+                }],
     
-            authors: [{
-              name:       "Author Name",
-              url:        "http://example.com/",
-              company:    "Author Company",
-              companyURL: "http://example.org/",
-              mailto:     "author@example.com",
-              note:       "author note"
-            }],
+                authors: [{
+                  name:       "Author Name",
+                  url:        "http://example.com/",
+                  company:    "Author Company",
+                  companyURL: "http://example.org/",
+                  mailto:     "author@example.com",
+                  note:       "author note"
+                }],
     
-            interactiveLinks: [{
-              name: "Link Name",
-              description: "Link Description",
-              uri: "http://example.com/",
-            },{
-              name: "Second Link Name",
-              description: "Second Link Description",
-              uri: "http://example2.com/",
-            }],
+                interactiveLinks: [{
+                  name: "Link Name",
+                  description: "Link Description",
+                  uri: "http://example.com/",
+                },{
+                  name: "Second Link Name",
+                  description: "Second Link Description",
+                  uri: "http://example2.com/",
+                }],
     
-            // for staff only
-            specStatus: "Candidate", // options are Draft, Candidate, Approved, Historic
-            publishDate: ""
-          };
+                // for staff only
+                specStatus: "Candidate", // options are Draft, Candidate, Approved, Historic
+                publishDate: ""
+              };
   </script>
-</head><body>
+</head>
+<body>
   <section id="toc"></section>
   <section id="tof"></section>
   <section id="tot"></section>
   <!-- start scope -->
   <section>
     <h2>How to Use this Document</h2>
-    <p>&nbsp;OMA has developed an online/offline editor (OMA Editor) to support the developement of OMA Technical Documents.</p>
+    <p>&nbsp;OMA has developed an online/offline editor (OMA Editor) to support the development of OMA Technical Documents.</p>
     <p>&nbsp;The document is constructed using plain HTML, without any styling and it can be rendered by one of these two browsers:</p>
     <ul>
       <li>Chrome, or</li>
@@ -127,7 +128,7 @@
     <section id="front-cover-page">
       <h2>Front Cover Page</h2>
       <p>The Front Cover Page is the first page of the document and contains document general information.</p>
-      <table id="front-cover" style="height: 127px;" data-mce-style="height: 127px;" class="mce-item-table" width="932"><caption>Front Cover</caption>
+      <table id="front-cover" class="mce-item-table" style="height: 127px;" data-mce-style="height: 127px;" width="932"><caption>Front Cover</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -189,7 +190,7 @@
         <li>The system creates the content of these sections automatically at the time of rendering the document.</li>
         <li>The sections can be seen at the top of the document.
           <ul>
-            <li>In editing mode, when in the OMA Editor,&nbsp; the content of these tables is not available.</li>
+            <li>In editing mode, when in the OMA Editor, the content of these tables is not available.</li>
             <li>Click "<strong>Preview</strong>" button on the <strong>Menu Bar</strong> to see the Index.</li>
           </ul>
         </li>
@@ -197,7 +198,7 @@
       <section id="table-of-contents">
         <h2>Table of Contents</h2>
         <p>paragraph</p>
-        <table id="t-table-contents" style="height: 111px;" data-mce-style="height: 111px;" class="mce-item-table" width="967"><caption>Table of Contents</caption>
+        <table id="t-table-contents" class="mce-item-table" style="height: 111px;" data-mce-style="height: 111px;" data-mce-selected="1" width="967"><caption>Table of Contents</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -212,7 +213,7 @@
                 <ul>
                   <li>Contains a list of all the sections and sub-sections in the document.</li>
                   <li>Section numbering is created at the time of rendering the document.</li>
-                  <li>Each section and sub-section MUST have a title, <em><strong>&lt;h2&gt;</strong></em>, inmediately after the section element &lt;section&gt;.
+                  <li>Each section and sub-section MUST have a title, <em><strong>&lt;h2&gt;</strong></em>, immediately after the section element &lt;section&gt;.
                     <ul>
                       <li>The OMA Editor only allows <em><strong>&lt;h2&gt;</strong></em> titles.</li>
                       <li>If the section doesn't have a <em><strong>&lt;h2&gt;</strong></em> title, it will not appear in the <strong>Table of Contents</strong>.</li>
@@ -226,7 +227,7 @@
               <td><em>Delete Table of Contents</em></td>
               <td>
                 <ul>
-                  <li><strong>DO NOT DELETE</strong> this section, otherwise the document will <strong>NOT</strong> contain a <strong>Table of Contents</strong>.</li>
+                  <li><strong>DO NOT DELETE</strong> this section. Otherwise the document will <strong>NOT</strong> contain a <strong>Table of Contents</strong>.</li>
                 </ul>
               </td>
               <td>&nbsp;</td>
@@ -234,7 +235,7 @@
           </tbody>
         </table>
         <p><strong>&nbsp;Table of Contents in HTML</strong></p>
-        <table id="t-ex-table-contents" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Table of Contents in HTML</caption>
+        <table id="t-ex-table-contents" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Table of Contents in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -257,7 +258,7 @@
       <section id="table-of-figures">
         <h2>Table of Figures</h2>
         <p>paragraph</p>
-        <table id="t-table-figures" style="height: 49px;" data-mce-style="height: 49px;" class="mce-item-table" width="966"><caption>Table of Figures</caption>
+        <table id="t-table-figures" class="mce-item-table" style="height: 49px;" data-mce-style="height: 49px;" width="966"><caption>Table of Figures</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -285,7 +286,7 @@
               <td>
                 <ul>
                   <li><strong>DO NOT DELETE</strong> this section, otherwise the document will <strong>NOT</strong> contain a<strong> Table of Figures.<br>
-                    </strong></li>
+                       </strong></li>
                 </ul>
               </td>
               <td>&nbsp;</td>
@@ -293,7 +294,7 @@
           </tbody>
         </table>
         <p><strong>&nbsp;Table of Figures in HTML</strong></p>
-        <table id="t-html-table-figures" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Table of Figures in HTML</caption>
+        <table id="t-html-table-figures" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Table of Figures in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -316,7 +317,7 @@
       <section id="table-of-tables">
         <h2>Table of Tables</h2>
         <p>paragraph</p>
-        <table id="t-table-of-tables" style="height: 59px;" data-mce-style="height: 59px;" class="mce-item-table" width="915"><caption>Tables of Tables</caption>
+        <table id="t-table-of-tables" class="mce-item-table" style="height: 59px;" data-mce-style="height: 59px;" data-mce-selected="1" width="915"><caption>Tables of Tables</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -333,7 +334,7 @@
                   <li>The content in the <strong><em>&lt;caption&gt;</em></strong> element of the table is used as a title for the Table of Tables.<br>
                     <ul>
                       <li>In the <strong>Editor</strong> <strong>Mode</strong> the table title appears on the top of the table.</li>
-                      <li>In the <strong>Rendered Mode</strong> the table title appears at the botton of the table, together with a number.</li>
+                      <li>In the <strong>Rendered Mode</strong> the table title appears at the bottom of the table, together with a number.</li>
                     </ul>
                   </li>
                 </ul>
@@ -344,7 +345,7 @@
               <td><em>Delete Table of Tables</em></td>
               <td>
                 <ul>
-                  <li><strong>DO NOT DELETE</strong> this section, otherwise the document will <strong>NOT</strong> contain a <strong>Table of Tables</strong>.</li>
+                  <li><strong>DO NOT DELETE</strong> this section. Otherwise the document will <strong>NOT</strong> contain a <strong>Table of Tables</strong>.</li>
                 </ul>
               </td>
               <td>&nbsp;</td>
@@ -352,7 +353,7 @@
           </tbody>
         </table>
         <p><strong>&nbsp;Table of Tables in HTML</strong></p>
-        <table id="t-html-table-tables" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Table of Tables in HTML</caption>
+        <table id="t-html-table-tables" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Table of Tables in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -382,10 +383,10 @@
         <h2>Conventions</h2>
         <ul>
           <li>The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” are interpreted by this Editor as standard statements.</li>
-          <li>These words are displayed by the browser highlighted in red and with a distintive font.</li>
+          <li>These words are displayed by the browser highlighted in red and with a distinctive font.</li>
         </ul>
         <p><strong>Conventions in HTML</strong></p>
-        <table id="t-html-conventions" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Conventions in HTML</caption>
+        <table id="t-html-conventions" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Conventions in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -407,7 +408,7 @@
       <!-- end conventions --> <!-- start definitions -->
       <section>
         <h2>Definitions</h2>
-        <table id="3" style="height: 247px;" data-mce-style="height: 247px;" class="mce-item-table" width="1060"><caption>Definitions</caption>
+        <table id="3" class="mce-item-table" style="height: 726px;" data-mce-style="height: 726px;" width="1002"><caption>Definitions</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -488,7 +489,7 @@
                 <p>Follow these steps:</p>
                 <ol>
                   <li>After inserting and ID in the <strong>Definition</strong>.</li>
-                  <li>Place the cursor on the paragraph that you want to link back to the&nbsp; definition.</li>
+                  <li>Place the cursor on the paragraph that you want to link back to the definition.</li>
                   <li>Click in "<strong>Insert/Edit Link</strong>" button on the <strong>Editor Menu</strong> and input:
                     <ol>
                       <li><strong>URL</strong>
@@ -522,9 +523,9 @@
               </td>
               <td>
                 <ul>
-                  <li>We need to find away to indicate that a particular element has inserted an ID. For instance place a symbol or letter that clearly indicates that an ID is present.
+                  <li>We need to find a way to indicate that a particular element has inserted an ID. For instance place a symbol or letter that clearly indicates that an ID is present.
                     <ul>
-                      <li>This will faciliate to create links from other part of the document or from outside of the document.</li>
+                      <li>This will facilitate to create links from other part of the document or from outside of the document.</li>
                     </ul>
                   </li>
                 </ul>
@@ -549,13 +550,13 @@
         <p>Tests this is the plural of Test, therefore Tests should also be</p>
         <dl>
           <dt><dfn id="dictionary">OMA Dictionary<br>
-            </dfn></dt>
+               </dfn></dt>
           <dd id="d-dm">Document that describes technical terms defined by Open Mobile Alliance.</dd>
         </dl>
-        <p>Click here <a title="Dictionary" href="#dictionary" data-mce-href="#dictionary">OMA Dictionary</a> to see the its definition.</p>
+        <p>Click here <a title="Dictionary" href="#dictionary" data-mce-href="#dictionary">OMA Dictionary</a> to see its definition.</p>
         <p>&nbsp;</p>
         <p><strong>Definitions in HTML</strong></p>
-        <table id="t-html-definitions" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Definitions in HTML</caption>
+        <table id="t-html-definitions" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Definitions in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -577,7 +578,7 @@
       <section>
         <h2>Abbreviations</h2>
         <p>&nbsp;</p>
-        <table id="3" style="height: 487px;" data-mce-style="height: 487px;" class="mce-item-table" width="820"><caption>Abbreviations</caption>
+        <table id="3" class="mce-item-table" style="height: 487px;" data-mce-style="height: 487px;" width="820"><caption>Abbreviations</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -702,7 +703,7 @@
           <li title="Device management">This is an example of loop back to the abbreviation <a title="Open Mobile Alliance" href="#oma" data-mce-href="#oma">here</a>.</li>
         </ul>
         <p><strong>Abbreviations in HTML</strong></p>
-        <table id="t-abbreviations" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Abbreviations in HTML</caption>
+        <table id="t-abbreviations" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Abbreviations in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -725,12 +726,12 @@
     <section id="section">
       <h2>Sections</h2>
       <ul>
-        <li>This section describes how sections,&nbsp; subsections and appendix sections work.</li>
+        <li>This section describes how sections, subsections and appendix sections work.</li>
       </ul>
       <section id="sections">
         <h2>Sections</h2>
         <p>paragraph</p>
-        <table id="t-sections" style="height: 67px;" data-mce-style="height: 67px;" class="mce-item-table" width="1051"><caption>Sections</caption>
+        <table id="t-sections" class="mce-item-table" style="height: 1039px;" data-mce-style="height: 1039px;" data-mce-selected="1" width="1002"><caption>Sections</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -766,7 +767,7 @@
                   </li>
                 </ol>
                 <p>Follow these steps:<strong><br>
-                  </strong></p>
+                     </strong></p>
                 <ul>
                   <li>If the cursor is placed inside of an existing section, a click on this button will create a <strong>nested</strong> section.</li>
                 </ul>
@@ -819,7 +820,7 @@
                     </ul>
                   </li>
                 </ol>
-                <p>To link back from inside or outsside of the document to a particular section follow these steps:</p>
+                <p>To link back from inside or outside of the document to a particular section follow these steps:</p>
                 <ol>
                   <li>Select the word that you can use as a link.</li>
                   <li>Click in "<strong>Insert/Edit Link</strong>" button on the <strong>Editor Menu</strong>.</li>
@@ -830,10 +831,10 @@
                     <ul>
                       <li>Insert <strong>#</strong> followed by the section name. Rules to create the section name:
                         <ul>
-                          <li>&nbsp;use the same title as it appears in the section to link to.</li>
+                          <li><em>use the same title as it appears in the section to link to.</em></li>
                           <li><em>use lowercase only.</em></li>
                           <li><em>use (-) to separate words.</em></li>
-                          <li><em>eliminate any special charcter e.g. "(", "-", etc.</em></li>
+                          <li><em>eliminate any special character e.g. "(", "-", etc.</em></li>
                           <li><em>e.g. #terminology-and-conventions</em></li>
                         </ul>
                       </li>
@@ -883,7 +884,7 @@
         </table>
         <p>&nbsp;</p>
         <p><strong>Sections in HTML</strong></p>
-        <table id="t-html-sections" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Sections in HTML</caption>
+        <table id="t-html-sections" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" data-mce-selected="1" width="967"><caption>Sections in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -920,7 +921,7 @@
             </ul>
           </li>
         </ul>
-        <table id="sections" style="height: 261px;" data-mce-style="height: 261px;" class="mce-item-table" width="1000"><caption>Section, Subsection and Appendix</caption>
+        <table id="sections" class="mce-item-table" style="height: 261px;" data-mce-style="height: 261px;" data-mce-selected="1" width="1000"><caption>Section, Subsection and Appendix</caption>
           <thead>
             <tr>
               <th style="text-align: center;" data-mce-style="text-align: center;">Operations</th>
@@ -946,7 +947,7 @@
               </td>
               <td>
                 <ul>
-                  <li>"Add Appendix" button in the Editor Menu should be moved to the line that contains buttons related to section operations, e.g. "Add Section", etc</li>
+                  <li>"Add Appendix" button in the Editor Menu should be moved to the line that contains buttons related to section operations, e.g. "Add Section", etc.</li>
                 </ul>
               </td>
             </tr>
@@ -963,7 +964,7 @@
         </table>
         <p>&nbsp;</p>
         <p><strong>Appendix in HTML</strong></p>
-        <table id="t-html-appendix" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Appendix in HTML</caption>
+        <table id="t-html-appendix" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" data-mce-selected="1" width="967"><caption>Appendix in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -999,7 +1000,7 @@
         </li>
         <li>Each reference, normative or informative, is input in the document with an special notation. The system will do a look up to a database containing all these references and it will create the <strong>Reference</strong> section at the time of rendering the document.</li>
       </ul>
-      <table id="t-references" style="height: 79px;" data-mce-style="height: 79px;" class="mce-item-table" width="868"><caption>References</caption>
+      <table id="t-references" class="mce-item-table" style="height: 79px;" data-mce-style="height: 79px;" width="868"><caption>References</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1015,7 +1016,7 @@
             </td>
             <td>
               <ul>
-                <li>&nbsp;Input the reference inside of double brackets and subfix by an exclamation mark:
+                <li>&nbsp;Input the reference inside of double brackets and suffix by an exclamation mark:
                   <ul>
                     <li>[[!Normative-reference]]</li>
                   </ul>
@@ -1044,7 +1045,7 @@
       </table>
       <p>&nbsp;</p>
       <p><strong>&nbsp;References in HTML</strong></p>
-      <table id="t-html-references" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>References in HTML</caption>
+      <table id="t-html-references" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>References in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -1084,10 +1085,10 @@
     <section id="comments">
       <h2>Comments</h2>
       <ul>
-        <li>This function allows to introduce comments in the documents that are only visile on <strong>Editor Mode</strong>.</li>
+        <li>This function allows to introduce comments in the documents that are only visible on <strong>Editor Mode</strong>.</li>
         <li>When the document is rendered by a browser these comments are not visible.</li>
       </ul>
-      <table id="t-comments" style="height: 251px;" data-mce-style="height: 251px;" class="mce-item-table" width="912"><caption>Comments</caption>
+      <table id="t-comments" class="mce-item-table" style="height: 251px;" data-mce-style="height: 251px;" data-mce-selected="1" width="912"><caption>Comments</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1109,10 +1110,10 @@
             </td>
             <td>
               <ul>
-                <li>&nbsp;Unable to insert a normal paagraph after a comment. Each time that I click enter a new comment line is added.<br>
+                <li>&nbsp;Unable to insert a normal paragraph after a comment. Each time that I click enter a new comment line is added.<br>
                   <ul>
                     <li>See example in this section.</li>
-                    <li>I also try to conver the comment into a paragraph but it doesn't work</li>
+                    <li>I also try to convert the comment into a paragraph but it doesn't work</li>
                     <li>What it does work is to select the comment and click in clear the format.</li>
                   </ul>
                 </li>
@@ -1129,7 +1130,7 @@
       <p class="comment remove" style="color: blue;" data-mce-style="color: blue;">This statement is visible in Editor Mode but it is hidden when the document is rendered by the browser.</p>
       <p class="comment remove" style="color: blue;" data-mce-style="color: blue;">&nbsp;</p>
       <p><strong>Comments in HTML</strong></p>
-      <table id="t-html-comments" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Comments in HTML</caption>
+      <table id="t-html-comments" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Comments in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -1154,7 +1155,7 @@
       <ul>
         <li>This section describes operations with Images.</li>
       </ul>
-      <table id="t-images" style="height: 321px;" data-mce-style="height: 321px;" class="mce-item-table" width="1023"><caption>Images</caption>
+      <table id="t-images" class="mce-item-table" style="height: 321px;" data-mce-style="height: 321px;" width="1023"><caption>Images</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1171,7 +1172,7 @@
               <ul>
                 <li><em>Select Image</em>:
                   <ul>
-                    <li>Select image from your hardrive.</li>
+                    <li>Select image from your hard-drive.</li>
                   </ul>
                 </li>
                 <li><em>Caption</em>:
@@ -1259,7 +1260,7 @@
             <td>&nbsp;</td>
             <td>
               <ul>
-                <li>The image is moved to the new position but leaves behind the html exert for the image. When moving an image to a new location the old html statemnt should be deleted.</li>
+                <li>The image is moved to the new position but leaves behind the html exert for the image. When moving an image to a new location the old html statement should be deleted.</li>
               </ul>
             </td>
           </tr>
@@ -1267,19 +1268,19 @@
       </table>
       <p>&nbsp;</p>
       <p><strong>Example of Inserting an Image</strong></p>
-      <figure id="i-brick-wall"><img id="" src="/system/staging/OMA-TOOLS--2016-0209-CR_tables/assets/brick_wall.jpg" alt="Example of Brick Wall" onerror="this.onerror = null; this.src = '/system/staging/OMA-TOOLS--2016-0209-CR_tables/assets/brick_wall.jpg';" data-mce-src="undefined" width="220" height="147">
+      <figure id="i-brick-wall"><img id="" src="/system/staging/OMA-TOOLS--2016-0209-CR_tables/assets/brick_wall.jpg" alt="Example of Brick Wall" onerror="this.onerror = null; this.src = '/system/staging/OMA-TOOLS--2016-0209-CR_tables/assets/brick_wall.jpg';" data-mce-src="undefined" width="220" height="147"> 
         <figcaption>Example of Brick Wall</figcaption>
       </figure>
       <p>This link <a title="Click here to see the image." href="#i-brick-wall" data-mce-href="#i-brick-wall">wall </a>will take us back to the image.</p>
       <p>&nbsp;</p>
-      <figure><img src="/system/staging/OMA-TOOLS--2017-0256-CR_further-tests/images/bluetooth.png" alt="BlueTooth" onerror="this.onerror = null; this.src = '/system/staging/OMA-TOOLS--2017-0256-CR_further-tests/images/bluetooth.png';" data-mce-src="undefined">
+      <figure><img src="/system/staging/OMA-TOOLS--2017-0256-CR_further-tests/images/bluetooth.png" alt="BlueTooth" onerror="this.onerror = null; this.src = '/system/staging/OMA-TOOLS--2017-0256-CR_further-tests/images/bluetooth.png';" data-mce-src="undefined"> 
         <figcaption>Blue Tooth</figcaption>
       </figure>
       <p>Other test</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p><strong>Figures in HTML</strong></p>
-      <table id="t-html-figures" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Figures in HTML</caption>
+      <table id="t-html-figures" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Figures in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -1302,7 +1303,7 @@
     <section id="tables">
       <h2>Tables</h2>
       <p>paragraph</p>
-      <table id="t-table" style="height: 1613px;" data-mce-style="height: 1613px;" class="mce-item-table" width="1097"><caption>Table</caption>
+      <table id="t-table" class="mce-item-table" style="height: 2017px;" data-mce-style="height: 2017px;" data-mce-selected="1" width="1020"><caption>Table</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1409,7 +1410,7 @@
               </ul>
               <p><strong>Paste Row</strong></p>
               <ol>
-                <li>Copy a row as desribed above, then</li>
+                <li>Copy a row as described above, then</li>
                 <li>Place the cursor in a row, and</li>
               </ol>
               <ul>
@@ -1517,7 +1518,7 @@
             <td>&nbsp;</td>
             <td>
               <ul>
-                <li>If the table is already at the end of a section without a paragraph between the end of the table and the section. It is not possible to introduce a new paragraph. Try to inser a paragraph between the end of this table and the next paragraph "<strong>Examples of Operations with Tables</strong>".</li>
+                <li>If the table is already at the end of a section without a paragraph between the end of the table and the section. It is not possible to introduce a new paragraph. Try to insert a paragraph between the end of this table and the next paragraph "<strong>Examples of Operations with Tables</strong>".</li>
               </ul>
             </td>
           </tr>
@@ -1527,7 +1528,7 @@
       <p>Click here to <a title="Click here to jump to the above table" href="#t-table" data-mce-href="#t-table">jump</a> to the above table.</p>
       <p>&nbsp;</p>
       <p><strong>Tables in HTML</strong></p>
-      <table id="t-html-tables" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Tables in HTML</caption>
+      <table id="t-html-tables" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Tables in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -1550,12 +1551,12 @@
     <section id="standards-statements">
       <h2>Standard Statements</h2>
       <ul>
-        <li>The usage of standards words, such as: MUST, SHALL, that are used to expressed standards statemetns MUST be written in capital letters.</li>
+        <li>The usage of standards words, such as: MUST, SHALL, that are used to express standards statements MUST be written in capital letters.</li>
         <li>At the time of rendering the document, the browser highlights these words in red, using a different type of font.</li>
       </ul>
       <p>&nbsp;</p>
       <p><strong>Standards Statements in HTML</strong></p>
-      <table id="t-html-standards-statements" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Standard Statements in HTML</caption>
+      <table id="t-html-standards-statements" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Standard Statements in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -1579,7 +1580,7 @@
     <section id="s-lists">
       <h2>Lists</h2>
       <p>paragraph</p>
-      <table id="t-lists" style="height: 323px;" data-mce-style="height: 323px;" class="mce-item-table" width="1026"><caption>Lists</caption>
+      <table id="t-lists" class="mce-item-table" style="height: 323px;" data-mce-style="height: 323px;" data-mce-selected="1" width="1026"><caption>Lists</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1612,14 +1613,14 @@
             <td>
               <ul>
                 <li>the title introduce by the editor is misleading. "List" is to create a list of items. Therefore. It should be better to change the words introduced by the editor as follow:<br>
-                  <br>
+                   <br>
                   <ul>
                     <li>"Word to be defined"&nbsp; change it to&nbsp; "Title"</li>
                     <li>"Definition goes here" change it to "Item"</li>
                   </ul>
                 </li>
                 <li>and keep the option the drop menu that allows to continue introducing "items" in a list</li>
-                <li>It is not possible to introduce a dot (underered list) on one of the list items, the list breaks.</li>
+                <li>It is not possible to introduce a dot (unordered list) on one of the list items, the list breaks.</li>
               </ul>
             </td>
           </tr>
@@ -1653,7 +1654,7 @@
       </table>
       <p>&nbsp;</p>
       <strong>Lists in HTML</strong><br>
-      <table id="t-html-lists" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Lists in HTML</caption>
+      <table id="t-html-lists" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Lists in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -1695,7 +1696,7 @@
         <li>Any html element MAY have an ID.</li>
         <li>ID's are used to link back to that element from inside or outside of the document.</li>
       </ul>
-      <table id="t-ids" style="height: 91px;" data-mce-style="height: 91px;" class="mce-item-table" width="1043"><caption>ID's</caption>
+      <table id="t-ids" class="mce-item-table" style="height: 91px;" data-mce-style="height: 91px;" width="1043"><caption>ID's</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1745,13 +1746,13 @@
                 <li><strong>Lists</strong>
                   <ul>
                     <li>Place the cursor in the <strong>List</strong>.</li>
-                    <li>ID starts with the letter "<strong>l-</strong>" for lists,&nbsp;followed by the specific ID: e.g. ID in a list, e.g.: "<strong>l</strong>-architercture".</li>
+                    <li>ID starts with the letter "<strong>l-</strong>" for lists,&nbsp;followed by the specific ID: e.g. ID in a list, e.g.: "<strong>l</strong>-architecture".</li>
                   </ul>
                 </li>
                 <li><strong>Paragraphs</strong>
                   <ul>
                     <li>Place the cursor inside of the <strong>Paragraph</strong>.</li>
-                    <li>ID starts with the letter "<strong>p-</strong>" for paragrahps, followed by the specific ID, e.g.: "<strong>p</strong>-section-and-appendix".</li>
+                    <li>ID starts with the letter "<strong>p-</strong>" for paragraphs, followed by the specific ID, e.g.: "<strong>p</strong>-section-and-appendix".</li>
                   </ul>
                 </li>
                 <li><strong>Preformatted Text/Code</strong>
@@ -1823,7 +1824,7 @@
                 <li>Ideally the "Edit ID" button should work with all the elements. Currently, it doesn't work with:
                   <ul>
                     <li>Figures</li>
-                    <li>Sections. Remember that ReSpec doesn't need section ID. The ID should be created on the fly using the section title wihout including special characters, capital letters (all lower case) and words separated by (-).</li>
+                    <li>Sections. Remember that ReSpec doesn't need section ID. The ID should be created on the fly using the section title without including special characters, capital letters (all lower case) and words separated by (-).</li>
                   </ul>
                 </li>
               </ul>
@@ -1840,7 +1841,7 @@
             </td>
             <td>
               <ul>
-                <li>The value of the ID is deleted but the ID is left insie of the element in blank, e.g. id="". We may need to have a drop menu to that allows to Edit or Delete the ID. Ideally, if an element has an "id" we should be able to right click and delete the attribute id=""&nbsp; from the element. Alternatively, the same should happen if selecting "Edit ID" and the text in the text-box is deleted.</li>
+                <li>The value of the ID is deleted but the ID is left inside of the element in blank, e.g. id="". We may need to have a drop menu to that allows to Edit or Delete the ID. Ideally, if an element has an "id" we should be able to right click and delete the attribute id=""&nbsp; from the element. Alternatively, the same should happen if selecting "Edit ID" and the text in the text-box is deleted.</li>
               </ul>
             </td>
           </tr>
@@ -1856,7 +1857,7 @@
       <h2>Edit ID's</h2>
       <p>paragraph</p>
       <p>&nbsp;</p>
-      <table id="t-edit-ids" style="height: 88px;" data-mce-style="height: 88px;" class="mce-item-table" width="1061"><caption>Edit ID's</caption>
+      <table id="t-edit-ids" class="mce-item-table" style="height: 88px;" data-mce-style="height: 88px;" width="1061"><caption>Edit ID's</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1882,7 +1883,7 @@
     <section id="undo">
       <h2>Undo</h2>
       <p>paragraph</p>
-      <table id="t-undo" style="height: 69px;" data-mce-style="height: 69px;" class="mce-item-table" width="912"><caption>Undo</caption>
+      <table id="t-undo" class="mce-item-table" style="height: 69px;" data-mce-style="height: 69px;" width="912"><caption>Undo</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1910,7 +1911,7 @@
     <section id="redo">
       <h2>Redo</h2>
       <p>paragraph</p>
-      <table id="t-redo" style="height: 30px;" data-mce-style="height: 30px;" class="mce-item-table" width="916"><caption>Redo</caption>
+      <table id="t-redo" class="mce-item-table" style="height: 30px;" data-mce-style="height: 30px;" width="916"><caption>Redo</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1938,7 +1939,7 @@
     <section id="cut">
       <h2>Cut</h2>
       <p>paragraph</p>
-      <table id="t-cut" style="height: 38px;" data-mce-style="height: 38px;" class="mce-item-table" width="920"><caption>Cut</caption>
+      <table id="t-cut" class="mce-item-table" style="height: 38px;" data-mce-style="height: 38px;" width="920"><caption>Cut</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -1961,7 +1962,7 @@
               <ul>
                 <li>&nbsp;Some elements such as tables, figures when are cut or deleted still left attributes or elements behind. In the case of tables, it appears that only the content is removed but the structure is still left behind.<br>
                   <ul>
-                    <li>Try to Cut the table below, it only cut the cell content.</li>
+                    <li>Try to cut the table below, it only cut the cell content.</li>
                   </ul>
                 </li>
               </ul>
@@ -1971,7 +1972,7 @@
       </table>
       <p><strong>&nbsp;Example of problems</strong></p>
       <p>&nbsp;</p>
-      <table id="t-test" style="height: 87px;" data-mce-style="height: 87px;" class="mce-item-table" width="608"><caption>Test Table to show Cut problems</caption>
+      <table id="t-test" class="mce-item-table" style="height: 87px;" data-mce-style="height: 87px;" width="608"><caption>Test Table to show Cut problems</caption>
         <thead>
           <tr>
             <th>Column 1</th>
@@ -1994,7 +1995,7 @@
     <section id="copy">
       <h2>Copy</h2>
       <p>paragraph</p>
-      <table id="t-copy" style="height: 23px;" data-mce-style="height: 23px;" class="mce-item-table" width="923"><caption>Copy</caption>
+      <table id="t-copy" class="mce-item-table" style="height: 23px;" data-mce-style="height: 23px;" width="923"><caption>Copy</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2025,7 +2026,7 @@
     <section id="paste">
       <h2>Paste</h2>
       <p>paragraph</p>
-      <table id="t-paste" style="height: 47px;" data-mce-style="height: 47px;" class="mce-item-table" width="916"><caption>Paste</caption>
+      <table id="t-paste" class="mce-item-table" style="height: 47px;" data-mce-style="height: 47px;" width="916"><caption>Paste</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2056,7 +2057,7 @@
     <section id="paste-as-text">
       <h2>Paste as Text</h2>
       <p>paragraph</p>
-      <table id="t-paste-as-text" style="height: 42px;" data-mce-style="height: 42px;" class="mce-item-table" width="917"><caption>Paste as Text</caption>
+      <table id="t-paste-as-text" class="mce-item-table" style="height: 42px;" data-mce-style="height: 42px;" width="917"><caption>Paste as Text</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2091,7 +2092,7 @@
     <section id="select-all">
       <h2>Select All</h2>
       <p>paragraph</p>
-      <table id="t-select-all" style="height: 41px;" data-mce-style="height: 41px;" class="mce-item-table" width="921"><caption>Select All</caption>
+      <table id="t-select-all" class="mce-item-table" style="height: 41px;" data-mce-style="height: 41px;" width="921"><caption>Select All</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2121,7 +2122,7 @@
     <section id="find-replace">
       <h2>Find &amp; Replace</h2>
       <p>These two functions are very useful when trying to find information in the document or when it is necessary to replace a word or statement.</p>
-      <table id="t-find-replace" style="height: 51px;" data-mce-style="height: 51px;" class="mce-item-table" width="913"><caption>Find and Replace</caption>
+      <table id="t-find-replace" class="mce-item-table" style="height: 51px;" data-mce-style="height: 51px;" width="913"><caption>Find and Replace</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2162,7 +2163,7 @@
     <section id="insert-ids">
       <h2>Insert ID's</h2>
       <p>paragraph</p>
-      <table id="t-insert-ids" style="height: 81px;" data-mce-style="height: 81px;" class="mce-item-table" width="950"><caption>Insert ID's</caption>
+      <table id="t-insert-ids" class="mce-item-table" style="height: 81px;" data-mce-style="height: 81px;" width="950"><caption>Insert ID's</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2187,7 +2188,7 @@
     <section id="hyperlink">
       <h2>Hyperlinks</h2>
       <p>paragraph</p>
-      <table id="t-hyperlink" style="height: 544px;" data-mce-style="height: 544px;" class="mce-item-table" width="1075"><caption>Hyperlink</caption>
+      <table id="t-hyperlink" class="mce-item-table" style="height: 544px;" data-mce-style="height: 544px;" width="1075"><caption>Hyperlink</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2265,7 +2266,7 @@
       <p><strong>Hyperlink in HTML</strong></p>
       <p><strong>Insert a <a title="Comment when hovering over" href="url" target="_blank" data-mce-href="url">Text to Display</a></strong><br data-mce-bogus="1">
       </p>
-      <table id="t-html-hyperlinks" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Hyperlinks in HTML</caption>
+      <table id="t-html-hyperlinks" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Hyperlinks in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2288,7 +2289,7 @@
     <section id="special-character">
       <h2>Special Character</h2>
       <p>paragraph</p>
-      <table id="t-special-character" style="height: 151px;" data-mce-style="height: 151px;" class="mce-item-table" width="1035"><caption>Special Character</caption>
+      <table id="t-special-character" class="mce-item-table" style="height: 151px;" data-mce-style="height: 151px;" width="1035"><caption>Special Character</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2313,8 +2314,8 @@
       <p><strong>Examples with Special Character</strong></p>
       <p>Special Characters: µ, ≈, etc</p>
       <p>&nbsp;</p>
-      <p><strong>Specical Characters in HTML</strong></p>
-      <table id="t-html-special-characters" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Special Characters in HTML</caption>
+      <p><strong>Special Characters in HTML</strong></p>
+      <table id="t-html-special-characters" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" data-mce-selected="1" width="967"><caption>Special Characters in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2335,7 +2336,7 @@
     <section>
       <h2>Horizontal Line</h2>
       <p>paragraph</p>
-      <table id="t-horizontal-line" style="height: 142px;" data-mce-style="height: 142px;" class="mce-item-table" width="812"><caption>Horizontal Line</caption>
+      <table id="t-horizontal-line" class="mce-item-table" style="height: 142px;" data-mce-style="height: 142px;" width="812"><caption>Horizontal Line</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2375,7 +2376,7 @@
       <p>&nbsp;</p>
       <hr>
       <p>&nbsp;</p>
-      <table id="t-html-horizontal-line" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Horizontal Line in HTML</caption>
+      <table id="t-html-horizontal-line" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Horizontal Line in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2398,7 +2399,7 @@
     <section id="anchor">
       <h2>Anchor</h2>
       <p>paragraph</p>
-      <table id="t-anchor" style="height: 124px;" data-mce-style="height: 124px;" class="mce-item-table" width="903"><caption>Anchor</caption>
+      <table id="t-anchor" class="mce-item-table" style="height: 124px;" data-mce-style="height: 124px;" width="903"><caption>Anchor</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2442,7 +2443,7 @@
       <p><a title="Click here to jump to ... the symbol" href="#test-anchor" data-mce-href="#test-anchor">Jump</a> to the above anchor symbol.</p>
       <p>&nbsp;</p>
       <p><strong>Anchor in HTML</strong></p>
-      <table id="t-html-anchor" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Anchors in HTML</caption>
+      <table id="t-html-anchor" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Anchors in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2465,7 +2466,7 @@
     <section id="page-break">
       <h2>Page Break</h2>
       <p>paragraph</p>
-      <table id="t-page-break" style="height: 235px;" data-mce-style="height: 235px;" class="mce-item-table" width="942"><caption>Page Break</caption>
+      <table id="t-page-break" class="mce-item-table" style="height: 235px;" data-mce-style="height: 235px;" data-mce-selected="1" width="942"><caption>Page Break</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2489,7 +2490,7 @@
                   <p><img class="mce-pagebreak" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-mce-resize="false" data-mce-placeholder=""></p>
                   "
                   <ul>
-                    <li>in the source code it appears as &lt;p&gt;&lt;!-- pagebreak --&gt;&lt;/p&gt;</li>
+                    <li>in the source code it appears as &lt;p&gt;&lt;!-- page break --&gt;&lt;/p&gt;</li>
                   </ul>
                 </li>
                 <li>How does page break should work?</li>
@@ -2502,7 +2503,7 @@
       <strong>Examples with Page Break</strong>
       <p><img class="mce-pagebreak" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-mce-resize="false" data-mce-placeholder=""></p>
       <p><strong>Page Break in HTML</strong></p>
-      <table id="t-html-page-break" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Page Break in HTML</caption>
+      <table id="t-html-page-break" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Page Break in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2523,7 +2524,7 @@
     <section id="non-breaking-space">
       <h2>Non-breaking Space</h2>
       <p>paragraph</p>
-      <table id="t-non-breaking-space" style="height: 126px;" data-mce-style="height: 126px;" class="mce-item-table" width="772"><caption>Non-Breaking Space</caption>
+      <table id="t-non-breaking-space" class="mce-item-table" style="height: 126px;" data-mce-style="height: 126px;" width="772"><caption>Non-Breaking Space</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2549,7 +2550,7 @@
       <p><strong>Examples with Non-Breaking Space</strong></p>
       <p>&nbsp;</p>
       <p><strong>Non-Breaking Space in HTML</strong></p>
-      <table id="t-html-non-breaking-space" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Non-Breaking Space in HTML</caption>
+      <table id="t-html-non-breaking-space" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Non-Breaking Space in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2573,7 +2574,7 @@
     <section id="insert-date-time">
       <h2>Insert Date, Time</h2>
       <p>paragraph</p>
-      <table id="t-insert-date-time" style="height: 205px;" data-mce-style="height: 205px;" class="mce-item-table" width="861"><caption>Insert Date Time</caption>
+      <table id="t-insert-date-time" class="mce-item-table" style="height: 205px;" data-mce-style="height: 205px;" width="861"><caption>Insert Date Time</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2602,8 +2603,8 @@
       <p>&nbsp;</p>
       <p><strong>Date and Time in HTML</strong></p>
       <p>13:19:50, 2016-12-23, 1:20:44 PM, 12/23/2016<strong><br>
-        </strong></p>
-      <table id="t-html-date-time" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Date and Time in HTML</caption>
+           </strong></p>
+      <table id="t-html-date-time" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Date and Time in HTML</caption>
         <thead>
           <tr>
             <th>ReSpec</th>
@@ -2629,7 +2630,7 @@
     <section id="view-ids">
       <h2>View ID's</h2>
       <p id="text-id-in-paragraph">paragraph</p>
-      <table id="t-view-ids" style="height: 84px;" data-mce-style="height: 84px;" class="mce-item-table" width="971"><caption>View ID's</caption>
+      <table id="t-view-ids" class="mce-item-table" style="height: 84px;" data-mce-style="height: 84px;" width="971"><caption>View ID's</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -2654,7 +2655,7 @@
     <section id="invisible-characters">
       <h2>Invisible Characters</h2>
       <p>paragraph</p>
-      <table id="t-invisible-characters" style="height: 234px;" data-mce-style="height: 234px;" class="mce-item-table" width="873"><caption>Invisible Characters</caption>
+      <table id="t-invisible-characters" class="mce-item-table" style="height: 234px;" data-mce-style="height: 234px;" width="873"><caption>Invisible Characters</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2684,7 +2685,7 @@
     <section id="show-blocks">
       <h2>Show Blocks</h2>
       <p>paragraph</p>
-      <table id="t-show-blocks" style="height: 100px;" data-mce-style="height: 100px;" class="mce-item-table" width="870"><caption>Show Blocks</caption>
+      <table id="t-show-blocks" class="mce-item-table" style="height: 100px;" data-mce-style="height: 100px;" width="870"><caption>Show Blocks</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2713,7 +2714,7 @@
     <section id="visual-aids">
       <h2>Visual Aids</h2>
       <p>paragraph</p>
-      <table id="t-visual-aids" style="height: 100px;" data-mce-style="height: 100px;" class="mce-item-table" width="870"><caption>Visual Aids</caption>
+      <table id="t-visual-aids" class="mce-item-table" style="height: 100px;" data-mce-style="height: 100px;" data-mce-selected="1" width="870"><caption>Visual Aids</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2730,7 +2731,7 @@
                 <li>Click "<strong>View</strong>" button and select "<strong>Visual Aids</strong>" on the <strong>Editor Menu.</strong></li>
                 <li>The editor will display broken lines and marks to show different document constructors.</li>
               </ol>
-              <p>Note: It is advisble to have this function tick.</p>
+              <p>Note: It is advisable to have this function tick.</p>
             </td>
             <td>&nbsp;</td>
           </tr>
@@ -2741,7 +2742,7 @@
     <section id="preview-screen">
       <h2>Preview Screen</h2>
       <p>paragraph</p>
-      <table id="t-preview-screen" style="height: 217px;" data-mce-style="height: 217px;" class="mce-item-table" width="953"><caption>Preview Screen</caption>
+      <table id="t-preview-screen" class="mce-item-table" style="height: 217px;" data-mce-style="height: 217px;" width="953"><caption>Preview Screen</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2773,7 +2774,7 @@
     <section id="fullscreen">
       <h2>Full Screen</h2>
       <p>paragraph</p>
-      <table id="t-fullscreen" style="height: 100px;" data-mce-style="height: 100px;" class="mce-item-table" width="870"><caption>Fullscreen</caption>
+      <table id="t-fullscreen" class="mce-item-table" style="height: 100px;" data-mce-style="height: 100px;" data-mce-selected="1" width="870"><caption>Full Screen</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2817,7 +2818,7 @@
     <section id="rich-text">
       <h2>Rich Text</h2>
       <p>This section describes the elements to construct rich text.</p>
-      <table id="tb-rich-text" style="height: 451px;" data-mce-style="height: 451px;" class="mce-item-table" width="1008"><caption>Rich Text</caption>
+      <table id="tb-rich-text" class="mce-item-table" style="height: 451px;" data-mce-style="height: 451px;" data-mce-selected="1" width="1008"><caption>Rich Text</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -2864,7 +2865,7 @@
             <td>
               <ul>
                 <li>Click "<strong>Enter</strong>" key on the keyboard.<strong><br>
-                  </strong></li>
+                     </strong></li>
               </ul>
             </td>
             <td>&nbsp;
@@ -2938,7 +2939,7 @@
       &nbsp;
       <section id="preformatted-text">
         <h2>Preformatted Text</h2>
-        <table id="t-preformatted-text" style="height: 63px;" data-mce-style="height: 63px;" class="mce-item-table" width="976"><caption>Prefformated Text</caption>
+        <table id="t-preformatted-text" class="mce-item-table" style="height: 63px;" data-mce-style="height: 63px;" data-mce-selected="1" width="976"><caption>Preformated Text</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -2957,14 +2958,14 @@
               </td>
               <td>
                 <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                  <li>&nbsp;unable to insert a preformatted text into a table cell.</li>
+                  <li>unable to insert a preformatted text into a table cell.</li>
                   <li>It is not possible to create a bullet list or numbered list inside of any of these preformatted blocks.</li>
                 </ul>
                 <p>ReSpec doesn't know how to display the following text boxes correctly:</p>
                 <p><br>
-                  &lt;div class="example"&gt;Example div&lt;/div&gt;<br>
-                  &lt;div class="code example"&gt;Example Code div&lt;/div&gt;<br>
-                  &lt;div class="example nohighlight"&gt;Non Formatted Code&lt;/div&gt;</p>
+                   &lt;div class="example"&gt;Example div&lt;/div&gt;<br>
+                   &lt;div class="code example"&gt;Example Code div&lt;/div&gt;<br>
+                   &lt;div class="example nohighlight"&gt;Non Formatted Code&lt;/div&gt;</p>
                 <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
                   <li>Therefore, we should remove convert these text boxes to the ones recognize by ReSpec. See table</li>
                   <li></li>
@@ -2991,12 +2992,12 @@
           </tbody>
         </table>
         <p>&nbsp;</p>
-        <strong>Examples of Prefformated Text</strong>
+        <strong>Examples of Preformated Text</strong>
         <pre id="pre-text" class="example">This text has <br>   been placed in<br>                  a preformatted<br><br>        text box. The text is displayed<br>      as it has been input.<br>&lt;pre class="example"&gt; preformatted text&lt;/pre&gt;<br><br></pre>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p><strong>Preformatted Text In HTML</strong></p>
-        <table id="t-html-preformatted-text" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Preformatted Text in HTML</caption>
+        <table id="t-html-preformatted-text" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" data-mce-selected="1" width="967"><caption>Preformatted Text in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3018,7 +3019,7 @@
       <p>&nbsp;</p>
       <section id="ex-pre-code">
         <h2>Preformatted Code</h2>
-        <table id="t-preformatted-code" style="height: 109px;" data-mce-style="height: 109px;" class="mce-item-table" width="967"><caption>Preformatted Code</caption>
+        <table id="t-preformatted-code" class="mce-item-table" style="height: 109px;" data-mce-style="height: 109px;" data-mce-selected="1" width="967"><caption>Preformatted Code</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -3038,14 +3039,14 @@
               <td>
                 <ul>
                   <li>&nbsp;Editor is not able to insert this class="example highlight", this class is understood and displayed correctly by ReSpec. See example below.</li>
-                  <li>&nbsp;unable to inser a preformatted code into a table cell. See <a title="Click here to jump." href="#t-html-conventions" data-mce-href="#t-html-conventions">Conventions in HTML</a><br data-mce-bogus="1">
+                  <li>&nbsp;unable to insert a preformatted code into a table cell. See <a title="Click here to jump." href="#t-html-conventions" data-mce-href="#t-html-conventions">Conventions in HTML</a><br data-mce-bogus="1">
                   </li>
                 </ul>
               </td>
             </tr>
             <tr>
               <td><em>Link back to a Preformatted Code<br>
-                </em></td>
+                   </em></td>
               <td>
                 <ul>
                   <li>See details on <a title="Click here to see how to insert an ID." href="#link-back-text-box" data-mce-href="#link-back-text-box">Link Back to a Text Box</a>.</li>
@@ -3065,7 +3066,7 @@
         <pre id="pre-code" class="example highlight">&lt;pre class="example highlight"&gt; code&lt;/pre&gt;</pre>
         <p>&nbsp;</p>
         <p><strong>Preformatted Code in HTML</strong></p>
-        <table id="t-html-preformatted-code" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Preformatted Code in HTML</caption>
+        <table id="t-html-preformatted-code" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Preformatted Code in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3085,7 +3086,7 @@
       </section>
       <section id="ex-non-pre-text">
         <h2>Non-Preformatted Text or Code</h2>
-        <table id="t-non-preformatted-text" style="height: 134px;" data-mce-style="height: 134px;" class="mce-item-table" width="980"><caption>Non-Preformatted Text or Code</caption>
+        <table id="t-non-preformatted-text" class="mce-item-table" style="height: 134px;" data-mce-style="height: 134px;" width="980"><caption>Non-Preformatted Text or Code</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -3118,7 +3119,7 @@
               <td>&nbsp;</td>
             </tr>
             <tr>
-              <td><em>Dragging a Non-Preformatted Tex Box</em></td>
+              <td><em>Dragging a Non-Preformatted Text Box</em></td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
@@ -3126,11 +3127,11 @@
         </table>
         <p>&nbsp;</p>
         <p><strong>Example of Non-Preformatted Text or Code</strong></p>
-        <aside id="non-pre-text" class="example">&lt;aside class="example"&gt; text when redered doesn't maintain the same format as when it was in put in the editor &lt;/aside&gt;</aside>
+        <aside id="non-pre-text" class="example">&lt;aside class="example"&gt; text when rendered doesn't maintain the same format as when it was in put in the editor &lt;/aside&gt;</aside>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p><strong>Non-Preformatted Text or Code in HTML</strong></p>
-        <table id="t-html-non-preformatted" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Non-Preformatted Text or Code in HTML</caption>
+        <table id="t-html-non-preformatted" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" data-mce-selected="1" width="967"><caption>Non-Preformatted Text or Code in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3152,7 +3153,7 @@
       </section>
       <section id="ex-code">
         <h2>Code</h2>
-        <table id="t-code" style="height: 60px;" data-mce-style="height: 60px;" class="mce-item-table" width="965"><caption>Code</caption>
+        <table id="t-code" class="mce-item-table" style="height: 60px;" data-mce-style="height: 60px;" width="965"><caption>Code</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -3187,7 +3188,7 @@
             </tr>
             <tr>
               <td><em>Link back to a Code Box<br>
-                </em></td>
+                   </em></td>
               <td>&nbsp;See details on <a title="Click here to see how to insert an ID." href="#link-back-text-box" data-mce-href="#link-back-text-box">Link Back to a Text Box</a>.</td>
               <td>&nbsp;</td>
             </tr>
@@ -3201,7 +3202,7 @@
         <p>&nbsp;</p>
         <p><code id="ex-code">&nbsp;</code></p>
         <p><strong>Code in HTML</strong></p>
-        <table id="t-html-code" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Code in HTML</caption>
+        <table id="t-html-code" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Code in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3224,7 +3225,7 @@
       <section id="headings">
         <h2>Headings</h2>
         <p>This section describes how to use Titles in the document.</p>
-        <table id="title" style="height: 245px;" data-mce-style="height: 245px;" class="mce-item-table" width="1038"><caption>Headings</caption>
+        <table id="title" class="mce-item-table" style="height: 245px;" data-mce-style="height: 245px;" width="1038"><caption>Headings</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -3271,7 +3272,7 @@
             </tr>
             <tr>
               <td><em>Link back to Headings<br>
-                </em></td>
+                   </em></td>
               <td>
                 <ul>
                   <li>In Sections it <strong>IS NOT NECESSARY</strong> to introduce section ID'.</li>
@@ -3285,7 +3286,7 @@
         <br>
         <p>&nbsp;</p>
         <p><strong>Headings in HTML</strong></p>
-        <table id="t-html-heading" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Headings in HTML</caption>
+        <table id="t-html-heading" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Headings in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3308,7 +3309,7 @@
       <section id="paragraph">
         <h2>Paragraphs</h2>
         <p id="paragraph-link">This section explains how to use paragraphs with the OMA Editor.</p>
-        <table id="table-paragraph" style="height: 101px;" data-mce-style="height: 101px;" class="mce-item-table" width="689"><caption>Paragraphs</caption>
+        <table id="table-paragraph" class="mce-item-table" style="height: 101px;" data-mce-style="height: 101px;" data-mce-selected="1" width="689"><caption>Paragraphs</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -3323,7 +3324,7 @@
                 <p>Two methods:</p>
                 <ol>
                   <li>Place cursor in the area where you want the paragraph</li>
-                  <li>Click "Formats"/"Paragrah"</li>
+                  <li>Click "Formats"/"Paragraph"</li>
                 </ol>
               </td>
               <td>&nbsp;</td>
@@ -3364,7 +3365,7 @@
         <p>This example allows you to jump to the above <a title="Click here to jump." href="#paragraph-link" data-mce-href="#paragraph-link">paragraph</a>.</p>
         <p>&nbsp;</p>
         <p><strong>&nbsp;Paragraphs in HTML</strong></p>
-        <table id="t-html-paragraph" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Paragraphs in HTML</caption>
+        <table id="t-html-paragraph" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Paragraphs in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3387,7 +3388,7 @@
       <section id="blockquote">
         <h2>Blockquote</h2>
         <p>paragraph</p>
-        <table id="t-blockquote" style="height: 127px;" data-mce-style="height: 127px;" class="mce-item-table" width="967"><caption>Blockquote</caption>
+        <table id="t-blockquote" class="mce-item-table" style="height: 127px;" data-mce-style="height: 127px;" width="967"><caption>Blockquote</caption>
           <thead>
             <tr>
               <th>Operations</th>
@@ -3406,7 +3407,7 @@
               </td>
               <td>
                 <ul>
-                  <li>&nbsp;New functionality in ReSpec, we need to display these quotes in respec in a way that it easy to identify, e.g. grey background and italic.</li>
+                  <li>&nbsp;New functionality in ReSpec, we need to display these quotes in Respec in a way that it easy to identify, e.g. grey background and italic.</li>
                 </ul>
               </td>
             </tr>
@@ -3424,7 +3425,7 @@
         </table>
         <br>
         <p><strong>Blockquote in HTML</strong></p>
-        <table id="t-html-blockquote" style="height: 95px;" data-mce-style="height: 95px;" class="mce-item-table" width="967"><caption>Blockquote in HTML</caption>
+        <table id="t-html-blockquote" class="mce-item-table" style="height: 95px;" data-mce-style="height: 95px;" width="967"><caption>Blockquote in HTML</caption>
           <thead>
             <tr>
               <th>ReSpec</th>
@@ -3442,13 +3443,14 @@
             </tr>
           </tbody>
         </table>
-        <p>&nbsp;</p>
+        <p>&nbsp;new line 14th Feb 2017 at 15:20pm<br>
+        </p>
       </section>
     </section>
     <section id="tools">
       <h2>Tools</h2>
       <p>paragraph</p>
-      <table id="t-tools" style="height: 160px;" data-mce-style="height: 160px;" class="mce-item-table" width="867"><caption>Tools</caption>
+      <table id="t-tools" class="mce-item-table" style="height: 160px;" data-mce-style="height: 160px;" width="867"><caption>Tools</caption>
         <thead>
           <tr>
             <th>Operations</th>
@@ -3475,7 +3477,7 @@
       <h2>Others</h2>
       <p>paragraph</p>
       <ul>
-        <li>There is no autocorrection or suggestion of how correct a particular word</li>
+        <li>There is no auto-correction or suggestion of how correct a particular word</li>
         <li>How to view the documents created by the TinyMCE editor in e.g. Notepad. All the content is displayed in a single line.</li>
       </ul>
       <p>&nbsp;New line 14th Feb 12:30pm<br>
