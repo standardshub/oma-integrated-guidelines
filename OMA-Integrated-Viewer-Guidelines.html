@@ -6,51 +6,52 @@
   <script src="http://openmobilealliance.github.io/Tools/builds/respec-oma-common.js" async class="remove"></script>
   <script class="remove">
     var respecConfig = {
-            // for editor use
-            docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
-            subtitle: "File_Name",
-            shortName:  "shortName",
-            otherLinks: [{
-              key: "Other Link",
-              data: [{
-                value: "Link Name",
-                href: "#location"
-              }]
-            }],
-            editors: [{
-              name:       "Joaquin Prado",
-              url:        "",
-              company:    "",
-              companyURL: "",
-              mailto:     "",
-              note:       "editor note"
-            }],
+                // for editor use
+                docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
+                subtitle: "File_Name",
+                shortName:  "shortName",
+                otherLinks: [{
+                  key: "Other Link",
+                  data: [{
+                    value: "Link Name",
+                    href: "#location"
+                  }]
+                }],
+                editors: [{
+                  name:       "Joaquin Prado",
+                  url:        "",
+                  company:    "",
+                  companyURL: "",
+                  mailto:     "",
+                  note:       "editor note"
+                }],
     
-            authors: [{
-              name:       "Author Name",
-              url:        "http://example.com/",
-              company:    "Author Company",
-              companyURL: "http://example.org/",
-              mailto:     "author@example.com",
-              note:       "author note"
-            }],
+                authors: [{
+                  name:       "Author Name",
+                  url:        "http://example.com/",
+                  company:    "Author Company",
+                  companyURL: "http://example.org/",
+                  mailto:     "author@example.com",
+                  note:       "author note"
+                }],
     
-            interactiveLinks: [{
-              name: "Link Name",
-              description: "Link Description",
-              uri: "http://example.com/",
-            },{
-              name: "Second Link Name",
-              description: "Second Link Description",
-              uri: "http://example2.com/",
-            }],
+                interactiveLinks: [{
+                  name: "Link Name",
+                  description: "Link Description",
+                  uri: "http://example.com/",
+                },{
+                  name: "Second Link Name",
+                  description: "Second Link Description",
+                  uri: "http://example2.com/",
+                }],
     
-            // for staff only
-            specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
-            publishDate: ""
-          };
+                // for staff only
+                specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
+                publishDate: ""
+              };
   </script>
-</head><body>
+</head>
+<body>
   <section id="toc"></section>
   <section id="tof"></section>
   <section id="tot"></section>
@@ -59,11 +60,6 @@
   <section>
     <h2>Introduction</h2>
     <p>This document provides an explanation on the functionality of the Integrated Viewer Tool.</p>
-    <p>&nbsp;</p>
-    <figure id="f-integrated-viewer-work-flow"><img src="/system/staging/OMA-TOOLS--2017-0265-CR_add-diagram/images/Integrated_Viewer.jpg" alt="Integrated Viewer Work Flow" onerror="this.onerror = null; this.src = '/system/staging/OMA-TOOLS--2017-0265-CR_add-diagram/images/Integrated_Viewer.jpg';" data-mce-src="undefined" width="236" height="137">
-      <figcaption>Integrated Viewer Work Flow</figcaption>
-    </figure>
-    <p>&nbsp;</p>
   </section>
   <section>
     <h2>Top Menu</h2>
@@ -88,7 +84,7 @@
             </ul>
           </li>
         </ul>
-        <table id="t-reference-db" class="mce-item-table" style="height: 87px;" data-mce-style="height: 87px;" data-mce-selected="1" width="1007"><caption>Reference Database</caption>
+        <table id="t-reference-db" class="mce-item-table" style="height: 87px;" data-mce-style="height: 87px;" width="1007"><caption>Reference Database</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -133,7 +129,12 @@
                   <li><strong>Working Groups</strong> MAY or MAY NOT have <strong>Working Areas</strong>.</li>
                 </ul>
               </td>
-              <td>&nbsp;</td>
+              <td>
+                <ul>
+                  <li>&nbsp;P1 - Problem when rendering a new Working Group after selecting it (in Firefox). The rendering is down in stages while displaying the list of working groups ... see error in <a title="error" href="https://www.screencast.com/t/NMq7wVrn" target="_blank" data-mce-href="https://www.screencast.com/t/NMq7wVrn">screencat.</a><br>
+                  </li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td><em>Name</em></td>
@@ -178,13 +179,16 @@
               </td>
               <td>
                 <ul>
-                  <li>Missing "Back" button at the end of the page.</li>
+                  <li>P1 - Missing "Back" button at the end of the page.</li>
+                  <li>P1 - Bread-crumbs were added to page new add "New Working Groups" but not a "back" button to navigate back in case you don't want to add a group. <br>
+                  </li>
+                  <li>P1 - the same applies to other pages, e.g. "New Work Program" the bread-crumbs doesn't allow you to go back to admin window and there is not <strong>back</strong> button.<br data-mce-bogus="1">
+                  </li>
                 </ul>
               </td>
             </tr>
           </tbody>
         </table>
-        <p>&nbsp;</p>
         <p>&nbsp;</p>
       </section>
       <section>
@@ -264,7 +268,8 @@
               </td>
               <td>
                 <ul>
-                  <li>Missing "Back" button at the bottom of the page.</li>
+                  <li>P1 - Missing "Back" button at the bottom of the page.</li>
+                  <li>P1 - the same applies to other pages, e.g. "New Work Program" the bread-crumbs doesn't allow you to go back to admin window and there is not <strong>back</strong> button.</li>
                 </ul>
               </td>
             </tr>
@@ -273,7 +278,7 @@
         <p>&nbsp;</p>
       </section>
       <section>
-        <h2>Working Programs</h2>
+        <h2>Work Programs</h2>
         <p>This link allows to handle the list of <strong>Releases/Respositories</strong> displayed by the <strong>Integrated Viewer Tool</strong>.</p>
         <table id="t-working-programs" class="mce-item-table" style="height: 143px;" data-mce-style="height: 143px;" width="999"><caption>Working Program / Repositories</caption>
           <thead>
@@ -291,7 +296,8 @@
                   <li>Name of the Release or Enabler or repository</li>
                 </ul>
               </td>
-              <td>&nbsp;</td>
+              <td><br>
+              </td>
             </tr>
             <tr>
               <td><em>Repository URL</em></td>
@@ -349,10 +355,7 @@
                   <li>A click in "<strong>Templates</strong>" button will allow OMA staff to introduce a new baseline document in the selected repository or Working Program of the Enabler.</li>
                 </ul>
               </td>
-              <td>
-                <ul>
-                  <li>It is not working</li>
-                </ul>
+              <td><br data-mce-bogus="1">
               </td>
             </tr>
             <tr>
@@ -377,7 +380,9 @@
               </td>
               <td>
                 <ul>
-                  <li>&nbsp;Missing "Back" button at the bottom of the page</li>
+                  <li>P1 - Missing "Back" button at the bottom of the page</li>
+                  <li>P1 - The bread-crumb works to take you back to Work Programs page if you are inside of "New Work Program" window but it doesn't work to go back to the general admin pop up view.&nbsp; Should add a bread-crumb called "Work Program" to take you back to the "Work Program" tab?<br data-mce-bogus="1">
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -389,7 +394,7 @@
       <section>
         <h2>Users</h2>
         <p>This link allows OMA staff to perform user management tasks.</p>
-        <table id="t-users" class="mce-item-table" style="height: 106px;" data-mce-style="height: 106px;" data-mce-selected="1" width="1006"><caption>User Management</caption>
+        <table id="t-users" class="mce-item-table" style="height: 106px;" data-mce-style="height: 106px;" width="1006"><caption>User Management</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -429,7 +434,9 @@
               </td>
               <td>
                 <ul>
-                  <li>Missing roles, at the moment it is not possible to have "admin" and "officers"<br>
+                  <li>P1/2 - Missing roles, at the moment it is not possible to have "admin" and "officers". See "<a title="click here" href="#change-requests" data-mce-href="#change-requests">Change Request</a>" section <br>
+                  </li>
+                  <li>P2 - create a matrix of access rights based on functions and roles<br data-mce-bogus="1">
                   </li>
                 </ul>
               </td>
@@ -511,7 +518,12 @@
                   </li>
                 </ul>
               </td>
-              <td style="padding-left: 30px;" data-mce-style="padding-left: 30px;">&nbsp;</td>
+              <td style="padding-left: 30px;" data-mce-style="padding-left: 30px;">
+                <ul>
+                  <li>&nbsp;P1 - Missing back button to return to "Work Program" tab from "Users" admin page.<br>
+                  </li>
+                </ul>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -548,7 +560,7 @@
             </td>
             <td>
               <ul>
-                <li>Is this functionality working?</li>
+                <li>P1 - Is this functionality needed?</li>
               </ul>
             </td>
           </tr>
@@ -594,7 +606,8 @@
               </li>
             </ul>
           </td>
-          <td>&nbsp;</td>
+          <td><br data-mce-bogus="1">
+          </td>
         </tr>
         <tr>
           <td><em>Working Areas</em></td>
@@ -652,7 +665,8 @@
     <p>&nbsp;</p>
     <section>
       <h2>General</h2>
-      <p>It doesn't have functionality associated.</p>
+      <p>It doesn't have any functionality associated yet.<br>
+      </p>
     </section>
     <section>
       <h2>Work Program</h2>
@@ -660,12 +674,12 @@
       <ul>
         <li>Document Baseline
           <ul>
-            <li>Half-right of the window.</li>
+            <li>Half-right side of the window.</li>
           </ul>
         </li>
         <li>Your Change Requests
           <ul>
-            <li>Half-left of the window.</li>
+            <li>Half-left side of the window.</li>
           </ul>
         </li>
       </ul>
@@ -692,7 +706,7 @@
               </td>
               <td>
                 <ul>
-                  <li>Priority 2
+                  <li>Priority 2 (P2)<br>
                     <ul>
                       <li>Subfolders inside of folders are not correctly represented. Content of subfolders seems to be replicated using the same name as the subfolder.</li>
                     </ul>
@@ -716,25 +730,19 @@
               </td>
               <td>
                 <ul>
-                  <li>It takes too long to compare two baselines. <br>
+                  <li>P2 - It takes too long to compare two baselines. <br>
                     <ul>
                       <li>Can we do something to speed up the comparing process?</li>
                     </ul>
                   </li>
-                  <li>Comparing is not working correctly. If a word is just modified but not the sentence, the comparing function identifies as change the word that it was correctly change AND the rest of the sentence until the end of the paragraph.</li>
-                  <li>In some cases, compare is presenting a document with missing parts. See the compare baselines of the "Integrated Vierwer" repository on http://oma-services.notch8.com/wg/1/wa/19/work_programs/27<br data-mce-bogus="1">
-                  </li>
+                  <li>In some cases, compare is presenting a document with missing parts. See the compare baselines of the "Integrated Vierwer" repository on http://oma-services.notch8.com/wg/1/wa/19/work_programs/27</li>
                 </ul>
-                <p><br data-mce-bogus="1">
-                </p>
                 <ul>
                   <li>the “Author” (Service Bot) and “Notes” (merged baseline name) columns don’t provide relevant information.
                     <ul>
                       <li>"Author" should be the name of the person that created the change request that was merged on that baseline.</li>
-                      <li>"Notes", it should be the title to the last change request merged.</li>
+                      <li>"Notes", it should be the title to the last change request merged</li>
                     </ul>
-                  </li>
-                  <li>The compare window needs a "back" link to take you back to the Work Program page.<br>
                   </li>
                 </ul>
                 <br>
@@ -758,10 +766,10 @@
               </td>
               <td>
                 <ul>
-                  <li>Missing functionality</li>
-                  <li>See <a title="Click here to see the mockup." href="https://wiki.openmobilealliance.org/display/EP/Mockups" data-mce-href="https://wiki.openmobilealliance.org/display/EP/Mockups">OMA External Projects</a>. <br>
+                  <li>P1 - Time of the last merged is still missing, date and year was added but not time. We need it to differenticate consecutives merges<br data-mce-bogus="1">
                   </li>
                 </ul>
+                <br data-mce-bogus="1">
               </td>
             </tr>
           </tbody>
@@ -774,7 +782,7 @@
           <li>This column contains the request that are being created by the end-user but that haven't been submitted yet.</li>
           <li>These Change Requests are not visible unless the end-user decides to share them with other users that have an account in the Integrated Viewer.</li>
         </ul>
-        <table id="t-your-change-requests" class="mce-item-table" style="height: 79px;" data-mce-style="height: 79px;" data-mce-selected="1" width="1009"><caption>Your Change Requests</caption>
+        <table id="t-your-change-requests" class="mce-item-table" style="height: 79px;" data-mce-style="height: 79px;" width="1009"><caption>Your Change Requests</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -798,11 +806,7 @@
                   </li>
                 </ul>
               </td>
-              <td>
-                <ul>
-                  <li>&nbsp;It is not working this function.<br>
-                  </li>
-                </ul>
+              <td><br data-mce-bogus="1">
               </td>
             </tr>
             <tr>
@@ -855,9 +859,8 @@
               </td>
               <td>
                 <ul>
-                  <li>It is not working. Server error.<br>
+                  <li>It is not working. Message indicates that it failed to compare the baselines.<br>
                   </li>
-                  <li>Also it is necessary to add a "Back" bottom or link</li>
                 </ul>
               </td>
             </tr>
@@ -889,7 +892,7 @@
     <section>
       <h2>Change Requests</h2>
       <p>paragraph</p>
-      <table id="t-change-requests" class="mce-item-table" style="height: 139px;" data-mce-style="height: 139px;" data-mce-selected="1" width="1044"><caption>Change Requests</caption>
+      <table id="t-change-requests" class="mce-item-table" style="height: 139px;" data-mce-style="height: 139px;" width="1044"><caption>Change Requests</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -925,12 +928,7 @@
                 <li>If click in the icon the sort out is reversed.</li>
               </ul>
             </td>
-            <td>
-              <ul>
-                <li>&nbsp;Change Request number needs to be start from number 1 for each new repository.<br>
-                </li>
-                <li>At the moment, all the repositories are using the same number sequence. I started a new repository and the first change request was 297 rather than 1.</li>
-              </ul>
+            <td><br data-mce-bogus="1">
             </td>
           </tr>
           <tr>
@@ -957,7 +955,7 @@
             </td>
             <td>
               <ul>
-                <li>&nbsp;The comparation between Change Request and orginal baseline (prior creating the change request) document doesn't work.</li>
+                <li>P1 - The comapring function between Change Request and the original baseline (prior creating the change request) document doesn't work.</li>
               </ul>
             </td>
           </tr>
@@ -972,8 +970,8 @@
             </td>
             <td>
               <ul>
-                <li>&nbsp;It doesn't work.</li>
-                <li>The version of this baseline is NOT the latest baseline but the version of the baseline that was used prior creating the Change Request. In this way the user can see what was the baseline content prior the change request was created.</li>
+                <li>P1 - It doesn't work, the baseline displayed here is the actual change request, when it should be the baseline without the change request, the one used to write the change request against.<br>
+                </li>
               </ul>
             </td>
           </tr>
@@ -1002,7 +1000,7 @@
                     <li>It is also missing the "Back" buttom.</li>
                   </ul>
                 </li>
-                <li>Can I (Joaquin) have an "Admin" access right? I need to be able to reverse the status of any not merged change request. My current access right "Staff" doesn't allow me to change this status.<br>
+                <li>P1 - Can I (Joaquin) have an "Admin" access right? I need to be able to reverse the status of any not merged change request. My current access right "Staff" doesn't allow me to change this status.<br>
                 </li>
               </ul>
             </td>
@@ -1045,7 +1043,12 @@
             </td>
             <td>
               <ul>
-                <li>&nbsp;It is not working as described in the next section "Discussion Flow"</li>
+                <li>&nbsp;It is not working as described in the next section "Discussion Flow"
+                  <ul>
+                    <li>Is this still a problem?<br data-mce-bogus="1">
+                    </li>
+                  </ul>
+                </li>
               </ul>
             </td>
           </tr>
@@ -1133,7 +1136,7 @@
                   <li>If the CR is marked as a "<strong>Revision</strong>"
                     <ul>
                       <li>It means that the document is not accepted with its current content but there are some aspects <br>
-                        that may be acceptable if the submitter change the CR according tot he feedback provided.</li>
+                         that may be acceptable if the submitter change the CR according tot he feedback provided.</li>
                       <li>In this case the submitter will see in the "<strong>Actions</strong>" column the "State"&nbsp; "<strong>Revision</strong>".</li>
                     </ul>
                   </li>
@@ -1152,7 +1155,7 @@
                     <ul>
                       <li>&nbsp;the CR will appear again in the list of CRs to edit, Work Program private tab.</li>
                       <li>It is at this time when the submitter decides if he wants to make this CR public available or only available to a few<br>
-                        members.</li>
+                         members.</li>
                     </ul>
                   </li>
                 </ul>
