@@ -6,52 +6,51 @@
   <script src="http://openmobilealliance.github.io/Tools/builds/respec-oma-common.js" async class="remove"></script>
   <script class="remove">
     var respecConfig = {
-                                // for editor use
-                                docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
-                                subtitle: "File_Name",
-                                shortName:  "shortName",
-                                otherLinks: [{
-                                  key: "Other Link",
-                                  data: [{
-                                    value: "Link Name",
-                                    href: "#location"
-                                  }]
-                                }],
-                                editors: [{
-                                  name:       "Joaquin Prado",
-                                  url:        "",
-                                  company:    "",
-                                  companyURL: "",
-                                  mailto:     "",
-                                  note:       "editor note"
-                                }],
+                                    // for editor use
+                                    docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
+                                    subtitle: "File_Name",
+                                    shortName:  "shortName",
+                                    otherLinks: [{
+                                      key: "Other Link",
+                                      data: [{
+                                        value: "Link Name",
+                                        href: "#location"
+                                      }]
+                                    }],
+                                    editors: [{
+                                      name:       "Joaquin Prado",
+                                      url:        "",
+                                      company:    "",
+                                      companyURL: "",
+                                      mailto:     "",
+                                      note:       "editor note"
+                                    }],
     
-                                authors: [{
-                                  name:       "Author Name",
-                                  url:        "http://example.com/",
-                                  company:    "Author Company",
-                                  companyURL: "http://example.org/",
-                                  mailto:     "author@example.com",
-                                  note:       "author note"
-                                }],
+                                    authors: [{
+                                      name:       "Author Name",
+                                      url:        "http://example.com/",
+                                      company:    "Author Company",
+                                      companyURL: "http://example.org/",
+                                      mailto:     "author@example.com",
+                                      note:       "author note"
+                                    }],
     
-                                interactiveLinks: [{
-                                  name: "Link Name",
-                                  description: "Link Description",
-                                  uri: "http://example.com/",
-                                },{
-                                  name: "Second Link Name",
-                                  description: "Second Link Description",
-                                  uri: "http://example2.com/",
-                                }],
+                                    interactiveLinks: [{
+                                      name: "Link Name",
+                                      description: "Link Description",
+                                      uri: "http://example.com/",
+                                    },{
+                                      name: "Second Link Name",
+                                      description: "Second Link Description",
+                                      uri: "http://example2.com/",
+                                    }],
     
-                                // for staff only
-                                specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
-                                publishDate: ""
-                              };
+                                    // for staff only
+                                    specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
+                                    publishDate: ""
+                                  };
   </script>
-</head>
-<body>
+</head><body>
   <section id="toc"></section>
   <section id="tof"></section>
   <section id="tot"></section>
@@ -417,7 +416,16 @@
                   <li>Role played by the user.</li>
                 </ul>
               </td>
-              <td>&nbsp;</td>
+              <td>
+                <ul>
+                  <li>P1 - New problem, if the user sign in as Member, he/she doesn't have the option to create any change request. The are "Your Change Request" appears empty without the option to: Create a CR, Edit, Compare, Submit or Delete.<br>
+                    <ul>
+                      <li>Also, neither accounts for Members or Editors have a "Log out" button.<br data-mce-bogus="1">
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </td>
             </tr>
             <tr>
               <td><em>Change Role</em></td>
@@ -740,8 +748,7 @@
                     </ul>
                   </li>
                   <li>P1 - In some cases, compare is presenting a document with missing parts. See the compare baselines of the "Integrated Vierwer" repository on http://oma-services.notch8.com/wg/1/wa/19/work_programs/27</li>
-                  <li>P1 - after merging the first pull request it is still not possible to compare the two existing baselines, the initial one and the one produced by the merged of the first applied pull request. It takes the merged of two pull requests to be able to compare two baselines.<br data-mce-bogus="1">
-                  </li>
+                  <li>P1 - after merging the first pull request it is still not possible to compare the two existing baselines, the initial one and the one produced by the merged of the first applied pull request. It takes the merged of two pull requests to be able to compare two baselines.</li>
                 </ul>
                 <br>
               </td>
@@ -839,7 +846,7 @@
               </td>
               <td>
                 <ul>
-                  <li>ALL P1 -<br data-mce-bogus="1">
+                  <li>ALL P1 -
                     <ul>
                       <li>Once the document is shared with another user, the changes on one document are not viewed on the other.</li>
                       <li>After removing sharing rights to another user, this end-user is still able to view the document even after the document being submitted.</li>
@@ -857,8 +864,7 @@
                   <li>Click in "<strong>Compare</strong>" drop menu to compare Change Requests created that have not been yet submitted.</li>
                 </ul>
               </td>
-              <td><br data-mce-bogus="1">
-              </td>
+              <td>&nbsp;</td>
             </tr>
             <tr>
               <td><em>Submit CRs</em></td>
@@ -948,8 +954,7 @@
                 <li>A click in the the title "Change Requests" will sort the titles of the Change Request in alphabetic order, a second click will reverser the sort out.</li>
               </ul>
             </td>
-            <td><br data-mce-bogus="1">
-            </td>
+            <td>&nbsp;</td>
           </tr>
           <tr>
             <td><em>CR Against Baseline</em></td>
@@ -1188,8 +1193,7 @@
                 <p>&lt;blank&gt;</p>
                 <p>Question: How to undo merge?</p>
               </td>
-              <td><br data-mce-bogus="1">
-              </td>
+              <td>&nbsp;</td>
             </tr>
             <tr>
               <td>
@@ -1248,8 +1252,7 @@
           <tr>
             <td><em>Publish</em></td>
             <td>&nbsp;</td>
-            <td><br data-mce-bogus="1">
-            </td>
+            <td>&nbsp;</td>
           </tr>
           <tr>
             <td><em>Document Baselines</em></td>
@@ -1271,8 +1274,7 @@
                 </li>
               </ul>
             </td>
-            <td><br data-mce-bogus="1">
-            </td>
+            <td>&nbsp;</td>
           </tr>
           <tr>
             <td>&nbsp;</td>
@@ -1284,4 +1286,8 @@
       <p>&nbsp;</p>
     </section>
   </section>
+  <div id="mceResizeHandlenw" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: nw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 2908.72px;" style="cursor: nw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 2908.72px;"></div>
+  <div id="mceResizeHandlene" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: ne-resize; margin: 0px; padding: 0px; left: 1059.3px; top: 2908.72px;" style="cursor: ne-resize; margin: 0px; padding: 0px; left: 1059.3px; top: 2908.72px;"></div>
+  <div id="mceResizeHandlese" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: se-resize; margin: 0px; padding: 0px; left: 1059.3px; top: 3672.52px;" style="cursor: se-resize; margin: 0px; padding: 0px; left: 1059.3px; top: 3672.52px;"></div>
+  <div id="mceResizeHandlesw" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: sw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 3672.52px;" style="cursor: sw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 3672.52px;"></div>
 </body>
