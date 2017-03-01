@@ -6,49 +6,49 @@
   <script src="http://openmobilealliance.github.io/Tools/builds/respec-oma-common.js" async class="remove"></script>
   <script class="remove">
     var respecConfig = {
-                        // for editor use
-                        docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
-                        subtitle: "File_Name",
-                        shortName:  "shortName",
-                        otherLinks: [{
-                          key: "Other Link",
-                          data: [{
-                            value: "Link Name",
-                            href: "#location"
-                          }]
-                        }],
-                        editors: [{
-                          name:       "Joaquin Prado",
-                          url:        "",
-                          company:    "",
-                          companyURL: "",
-                          mailto:     "",
-                          note:       "editor note"
-                        }],
+                                // for editor use
+                                docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
+                                subtitle: "File_Name",
+                                shortName:  "shortName",
+                                otherLinks: [{
+                                  key: "Other Link",
+                                  data: [{
+                                    value: "Link Name",
+                                    href: "#location"
+                                  }]
+                                }],
+                                editors: [{
+                                  name:       "Joaquin Prado",
+                                  url:        "",
+                                  company:    "",
+                                  companyURL: "",
+                                  mailto:     "",
+                                  note:       "editor note"
+                                }],
     
-                        authors: [{
-                          name:       "Author Name",
-                          url:        "http://example.com/",
-                          company:    "Author Company",
-                          companyURL: "http://example.org/",
-                          mailto:     "author@example.com",
-                          note:       "author note"
-                        }],
+                                authors: [{
+                                  name:       "Author Name",
+                                  url:        "http://example.com/",
+                                  company:    "Author Company",
+                                  companyURL: "http://example.org/",
+                                  mailto:     "author@example.com",
+                                  note:       "author note"
+                                }],
     
-                        interactiveLinks: [{
-                          name: "Link Name",
-                          description: "Link Description",
-                          uri: "http://example.com/",
-                        },{
-                          name: "Second Link Name",
-                          description: "Second Link Description",
-                          uri: "http://example2.com/",
-                        }],
+                                interactiveLinks: [{
+                                  name: "Link Name",
+                                  description: "Link Description",
+                                  uri: "http://example.com/",
+                                },{
+                                  name: "Second Link Name",
+                                  description: "Second Link Description",
+                                  uri: "http://example2.com/",
+                                }],
     
-                        // for staff only
-                        specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
-                        publishDate: ""
-                      };
+                                // for staff only
+                                specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
+                                publishDate: ""
+                              };
   </script>
 </head>
 <body>
@@ -379,8 +379,6 @@
               </td>
               <td>
                 <ul>
-                  <li>P1 - unable to create new Repositories, the function stopped working.<br data-mce-bogus="1">
-                  </li>
                   <li>P1 - Missing "Back" button at the bottom of the page</li>
                   <li>P1 - The bread-crumb works to take you back to Work Programs page if you are inside of "New Work Program" window but it doesn't work to go back to the general admin pop up view.&nbsp; Should add a bread-crumb called "Work Program" to take you back to the "Work Program" tab?</li>
                 </ul>
@@ -394,7 +392,7 @@
       <section>
         <h2>Users</h2>
         <p>This link allows OMA staff to perform user management tasks.</p>
-        <table id="t-users" class="mce-item-table" style="height: 106px;" data-mce-style="height: 106px;" width="1006"><caption>User Management</caption>
+        <table id="t-users" class="mce-item-table" style="height: 106px;" data-mce-style="height: 106px;" data-mce-selected="1" width="1006"><caption>User Management</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -585,7 +583,7 @@
   <section>
     <h2>WG, WA, and Repositories</h2>
     <p>paragraph</p>
-    <table id="t-wg-wa-repositories" class="mce-item-table" style="height: 368px;" data-mce-style="height: 368px;" width="1070"><caption>WG, WA and Repositories</caption>
+    <table id="t-wg-wa-repositories" class="mce-item-table" style="height: 368px;" data-mce-style="height: 368px;" data-mce-selected="1" width="1070"><caption>WG, WA and Repositories</caption>
       <thead>
         <tr>
           <th>Operation</th>
@@ -605,7 +603,15 @@
               </li>
             </ul>
           </td>
-          <td>&nbsp;</td>
+          <td>
+            <ul>
+              <li>P1 - The application is not working correctly any more in Firefox. When signing into the application the view is: <a title="Click here." href="https://www.screencast.com/t/HcFzkucsfp" target="_blank" data-mce-href="https://www.screencast.com/t/HcFzkucsfp">See screencast view.</a><br>
+                <ul>
+                  <li>P1 - The Working Groups and Working Areas are not displayed correctly.</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
         </tr>
         <tr>
           <td><em>Working Areas</em></td>
@@ -685,7 +691,7 @@
         <h2>Document Baseline</h2>
         <p>This part contains all the baselines stored in the corresponding GitHub repository:</p>
         <p>&nbsp;</p>
-        <table id="t-document-baseline" class="mce-item-table" style="height: 47px;" data-mce-style="height: 47px;" width="980"><caption>Document Baseline</caption>
+        <table id="t-document-baseline" class="mce-item-table" style="height: 47px;" data-mce-style="height: 47px;" data-mce-selected="1" width="980"><caption>Document Baseline</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -733,14 +739,8 @@
                       <li>Can we do something to speed up the comparing process?</li>
                     </ul>
                   </li>
-                  <li>In some cases, compare is presenting a document with missing parts. See the compare baselines of the "Integrated Vierwer" repository on http://oma-services.notch8.com/wg/1/wa/19/work_programs/27</li>
-                </ul>
-                <ul>
-                  <li>the “Author” (Service Bot) and “Notes” (merged baseline name) columns don’t provide relevant information.
-                    <ul>
-                      <li>"Author" should be the name of the person that created the change request that was merged on that baseline.</li>
-                      <li>"Notes", it should be the title to the last change request merged</li>
-                    </ul>
+                  <li>P1 - In some cases, compare is presenting a document with missing parts. See the compare baselines of the "Integrated Vierwer" repository on http://oma-services.notch8.com/wg/1/wa/19/work_programs/27</li>
+                  <li>P1 - after merging the first pull request it is still not possible to compare the two existing baselines, the initial one and the one produced by the merged of the first applied pull request. It takes the merged of two pull requests to be able to compare two baselines.<br data-mce-bogus="1">
                   </li>
                 </ul>
                 <br>
@@ -764,7 +764,8 @@
               </td>
               <td>
                 <ul>
-                  <li>P1 - Time of the last merged is still missing, date and year was added but not time. We need it to differenticate consecutives merges</li>
+                  <li>P1 - Time of the last merged is still missing, date and year was added but not time. We need it to differenticate consecutives merges, sometimes just a few minutes apart from each other<br>
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -778,7 +779,7 @@
           <li>This column contains the request that are being created by the end-user but that haven't been submitted yet.</li>
           <li>These Change Requests are not visible unless the end-user decides to share them with other users that have an account in the Integrated Viewer.</li>
         </ul>
-        <table id="t-your-change-requests" class="mce-item-table" style="height: 79px;" data-mce-style="height: 79px;" width="1009"><caption>Your Change Requests</caption>
+        <table id="t-your-change-requests" class="mce-item-table" style="height: 79px;" data-mce-style="height: 79px;" data-mce-selected="1" width="1009"><caption>Your Change Requests</caption>
           <thead>
             <tr>
               <th>Operation</th>
@@ -838,10 +839,14 @@
               </td>
               <td>
                 <ul>
-                  <li>Once the document is shared with another user, the changes on one document are not viewed on the other.</li>
-                  <li>After removing sharing rights to another user, this end-user is still able to view the document even after the document being submitted.</li>
-                  <li>Once a document is shared the documents view by both users don't incorporate the chagnes done by one of the users.</li>
-                  <li>If an user submits a document that is shared, the other user will see still the document even after the first user has submitted the document. Only, when the document is agreed is when it disapear from the second user.</li>
+                  <li>ALL P1 -<br data-mce-bogus="1">
+                    <ul>
+                      <li>Once the document is shared with another user, the changes on one document are not viewed on the other.</li>
+                      <li>After removing sharing rights to another user, this end-user is still able to view the document even after the document being submitted.</li>
+                      <li>Once a document is shared the documents view by both users don't incorporate the chagnes done by one of the users.</li>
+                      <li>If an user submits a document that is shared, the other user will see still the document even after the first user has submitted the document. Only, when the document is agreed is when it disapear from the second user.</li>
+                    </ul>
+                  </li>
                 </ul>
               </td>
             </tr>
@@ -852,11 +857,7 @@
                   <li>Click in "<strong>Compare</strong>" drop menu to compare Change Requests created that have not been yet submitted.</li>
                 </ul>
               </td>
-              <td>
-                <ul>
-                  <li>It is not working. Message indicates that it failed to compare the baselines.<br>
-                  </li>
-                </ul>
+              <td><br data-mce-bogus="1">
               </td>
             </tr>
             <tr>
@@ -887,7 +888,7 @@
     <section>
       <h2>Change Requests</h2>
       <p>paragraph</p>
-      <table id="t-change-requests" class="mce-item-table" style="height: 139px;" data-mce-style="height: 139px;" width="1044"><caption>Change Requests</caption>
+      <table id="t-change-requests" class="mce-item-table" style="height: 139px;" data-mce-style="height: 139px;" data-mce-selected="1" width="1044"><caption>Change Requests</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -947,10 +948,7 @@
                 <li>A click in the the title "Change Requests" will sort the titles of the Change Request in alphabetic order, a second click will reverser the sort out.</li>
               </ul>
             </td>
-            <td>
-              <ul>
-                <li>P1 - The comapring function between Change Request and the original baseline (prior creating the change request) document doesn't work.</li>
-              </ul>
+            <td><br data-mce-bogus="1">
             </td>
           </tr>
           <tr>
@@ -989,9 +987,10 @@
             </td>
             <td>
               <ul>
-                <li>"Conflicted" state is not working. It should open the "Merge Conflict Manager"<br>
+                <li>P1 - "Conflicted" state is not working. It should open the "Merge Conflict Manager"<br>
                   <ul>
-                    <li>It is also missing the "Back" buttom.</li>
+                    <li>Could be because I don't have admin rights and therefore I cannot resolve conflicts?<br>
+                    </li>
                   </ul>
                 </li>
                 <li>P1 - Can I (Joaquin) have an "Admin" access right? I need to be able to reverse the status of any not merged change request. My current access right "Staff" doesn't allow me to change this status.<br>
@@ -1037,10 +1036,7 @@
             </td>
             <td>
               <ul>
-                <li>&nbsp;It is not working as described in the next section "Discussion Flow"
-                  <ul>
-                    <li>Is this still a problem?</li>
-                  </ul>
+                <li>P1 - I don't have Admin rights so, I cannot test this functionality.<br>
                 </li>
               </ul>
             </td>
@@ -1051,7 +1047,7 @@
       <section>
         <h2>Discussion Flow</h2>
         <p>paragraph</p>
-        <table id="t-discussion-flow" class="mce-item-table" style="height: 149px;" data-mce-style="height: 149px;" width="1048"><caption>Discussion Flow</caption>
+        <table id="t-discussion-flow" class="mce-item-table" style="height: 149px;" data-mce-style="height: 149px;" data-mce-selected="1" width="1048"><caption>Discussion Flow</caption>
           <thead>
             <tr>
               <th colspan="2">&nbsp;</th>
@@ -1192,10 +1188,7 @@
                 <p>&lt;blank&gt;</p>
                 <p>Question: How to undo merge?</p>
               </td>
-              <td>
-                <ul>
-                  <li>GitHub repository is not updated afer the merge. This stopped working after removing the Pull/Push buttons.</li>
-                </ul>
+              <td><br data-mce-bogus="1">
               </td>
             </tr>
             <tr>
@@ -1255,11 +1248,7 @@
           <tr>
             <td><em>Publish</em></td>
             <td>&nbsp;</td>
-            <td>
-              <ul>
-                <li>I am not sure how this button works.</li>
-                <li>A failure message is displayed when click on it.</li>
-              </ul>
+            <td><br data-mce-bogus="1">
             </td>
           </tr>
           <tr>
@@ -1282,11 +1271,7 @@
                 </li>
               </ul>
             </td>
-            <td>
-              <ul>
-                <li>It is not clear how this action works.</li>
-                <li>The intention of this functionality it is to move the document from development into a pre-publication branch. In this branch the changes introduced by the staff won't affect the development branch. Here the front page of the document is updated. Once this is done the document is moved to the publication branch or repository.</li>
-              </ul>
+            <td><br data-mce-bogus="1">
             </td>
           </tr>
           <tr>
@@ -1299,8 +1284,4 @@
       <p>&nbsp;</p>
     </section>
   </section>
-  <div id="mceResizeHandlenw" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: nw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 2127.17px;" style="cursor: nw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 2127.17px;"></div>
-  <div id="mceResizeHandlene" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: ne-resize; margin: 0px; padding: 0px; left: 1052.3px; top: 2127.17px;" style="cursor: ne-resize; margin: 0px; padding: 0px; left: 1052.3px; top: 2127.17px;"></div>
-  <div id="mceResizeHandlese" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: se-resize; margin: 0px; padding: 0px; left: 1052.3px; top: 2745.17px;" style="cursor: se-resize; margin: 0px; padding: 0px; left: 1052.3px; top: 2745.17px;"></div>
-  <div id="mceResizeHandlesw" data-mce-bogus="all" class="mce-resizehandle" unselectable="true" data-mce-style="cursor: sw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 2745.17px;" style="cursor: sw-resize; margin: 0px; padding: 0px; left: 53.3px; top: 2745.17px;"></div>
 </body>
