@@ -6,556 +6,84 @@
   <script src="http://openmobilealliance.github.io/Tools/builds/respec-oma-common.js" async class="remove"></script>
   <script class="remove">
     var respecConfig = {
-          		// for editor use
-          		docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
-          		subtitle: "File_Name",
-          		shortName:  "shortName",
-          		otherLinks: [{
-          		  key: "Other Link",
-          		  data: [{
-          			value: "Link Name",
-          			href: "#location"
-          		  }]
-          		}],
-          		editors: [{
-          		  name:       "Joaquin Prado",
-          		  url:        "",
-          		  company:    "",
-          		  companyURL: "",
-          		  mailto:     "",
-          		  note:       "editor note"
-          		}],
+              		// for editor use
+              		docType: "ORG", // options are BASE, RD, AD, TS, SUP, ETS, ORG
+              		subtitle: "File_Name",
+              		shortName:  "shortName",
+              		otherLinks: [{
+              		  key: "Other Link",
+              		  data: [{
+              			value: "Link Name",
+              			href: "#location"
+              		  }]
+              		}],
+              		editors: [{
+              		  name:       "Joaquin Prado",
+              		  url:        "",
+              		  company:    "",
+              		  companyURL: "",
+              		  mailto:     "",
+              		  note:       "editor note"
+              		}],
     
-          		authors: [{
-          		  name:       "Author Name",
-          		  url:        "http://example.com/",
-          		  company:    "Author Company",
-          		  companyURL: "http://example.org/",
-          		  mailto:     "author@example.com",
-          		  note:       "author note"
-          		}],
+              		authors: [{
+              		  name:       "Author Name",
+              		  url:        "http://example.com/",
+              		  company:    "Author Company",
+              		  companyURL: "http://example.org/",
+              		  mailto:     "author@example.com",
+              		  note:       "author note"
+              		}],
     
-          		interactiveLinks: [{
-          		  name: "Link Name",
-          		  description: "Link Description",
-          		  uri: "http://example.com/",
-          		},{
-          		  name: "Second Link Name",
-          		  description: "Second Link Description",
-          		  uri: "http://example2.com/",
-          		}],
+              		interactiveLinks: [{
+              		  name: "Link Name",
+              		  description: "Link Description",
+              		  uri: "http://example.com/",
+              		},{
+              		  name: "Second Link Name",
+              		  description: "Second Link Description",
+              		  uri: "http://example2.com/",
+              		}],
     
-          		// for staff only
-          		specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
-          		publishDate: ""
-          	  };
+              		// for staff only
+              		specStatus: "CANDIDATE", // options are Draft, Candidate, Approved, Historic
+              		publishDate: ""
+              	  };
   </script>
-</head><body>
-  <section id="toc"></section>
-  <section id="tof"></section>
-  <section id="tot"></section>
-  <!-- start scope --><!-- end scope --><!-- start terminology and conventions --><!-- /end terminology and conventions --><!-- start introduction --><!-- end introduction --><!-- start sections as needed --><!-- end sections as needed --><!-- start another section --><!-- end another section --><!-- end scr requirements --><!-- start additional appendix --><!-- note that there is no need for appendix class -->
-  <p>&nbsp;</p>
+</head>
+<section id="toc">aaaa</section>
+<section id="tof"></section>
+<section id="tot"></section>
+<!-- start scope --><!-- end scope --><!-- start terminology and conventions --><!-- /end terminology and conventions --><!-- start introduction --><!-- end introduction --><!-- start sections as needed --><!-- end sections as needed --><!-- start another section --><!-- end another section --><!-- end scr requirements --><!-- start additional appendix --><!-- note that there is no need for appendix class -->
+<p>&nbsp;</p>
+<section>
+  <h2>Introduction</h2>
+  <p>This document explains how to use the Integrated Viewer Tool!</p>
+</section>
+<section>
+  <h2>Top Menu</h2>
+  <p>This is the list of menus at the top right hand corner of the screen.</p>
   <section>
-    <h2>Introduction</h2>
-    <p>This document explains how to use the Integrated Viewer Tool!</p>
+    <h2>Working Groups</h2>
+    <p>A click in this menu will open a window listing all the available Working Groups.</p>
   </section>
   <section>
-    <h2>Top Menu</h2>
-    <p>This is the list of menus at the top right hand corner of the screen.</p>
+    <h2>Admin</h2>
+    <p>Only available to System Administrators.</p>
     <section>
-      <h2>Working Groups</h2>
-      <p>A click in this menu will open a window listing all the available Working Groups.</p>
-    </section>
-    <section>
-      <h2>Admin</h2>
-      <p>Only available to System Administrators.</p>
-      <section>
-        <h2>References DB</h2>
-        <ul>
-          <li>Reference Database contains the list of reference documentation.</li>
-          <li>If the reference to input in the technical document is not listed here, ReSpec will indicate that the reference is missing from this database.</li>
-          <li>It is possible to:
-            <ul>
-              <li>"Edit",</li>
-              <li>"Remove", or</li>
-              <li>"Add" a new reference</li>
-            </ul>
-          </li>
-        </ul>
-        <table id="t-reference-db" style="height: 87px;" width="1007" data-mce-style="height: 87px;" class="mce-item-table"><caption>Reference Database</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><em>New Reference </em></td>
-              <td>
-                <ol>
-                  <li>Click "New Reference" to add a new reference to the database:</li>
-                  <li>Input the following information:</li>
-                </ol>
-                <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-                  <li><strong>Key: e.g. </strong>[OMADICT]</li>
-                  <li><strong>Author:</strong></li>
-                  <li><strong>Title:</strong></li>
-                  <li><strong>Date: </strong>DD/MM/YYYY</li>
-                  <li><strong>Draft Edition:</strong></li>
-                  <li><strong>Status:</strong></li>
-                  <li><strong>Publisher:</strong></li>
-                  <li><strong>HREF</strong>:</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Edit</em></td>
-              <td>
-                <ul>
-                  <li>Click in "<strong>Edit</strong>" button to edit and existing reference.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Destroy </em></td>
-              <td>
-                <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-                  <li>Click in "<strong>Destroy</strong>" button to remove the reference from the database.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
-      <section>
-        <h2>Working Groups</h2>
-        <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-          <li>From this page you can manages the list of <strong>Working Groups</strong> displayed by the <strong>Integrated Viewer Tool</strong>.</li>
-        </ul>
-        <table id="t-working-groups" style="height: 76px;" width="1010" data-mce-style="height: 76px;" class="mce-item-table"><caption>Working Groups</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><em>Key</em></td>
-              <td>
-                <ul>
-                  <li>Short name of the <strong>Working Group</strong> to display under <strong>Working Groups</strong>.</li>
-                  <li><strong>Working Groups</strong> MAY or MAY NOT have <strong>Working Areas</strong>.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Name</em></td>
-              <td>
-                <ul>
-                  <li>Administrative name of the <strong>Working Group</strong>.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Edit</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Edit</strong>" button will allow the staff to update:
-                    <ul>
-                      <li><em>Key,</em></li>
-                      <li><em>Name</em> and</li>
-                      <li><em>General Information</em> of an existing <strong>Working Group</strong>.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Destroy</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Destroy</strong>" button will eliminate the corresponding <strong>Working Group</strong> upon confirmation.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>New Working Group</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>New Working Group</strong>" button will open a new window to input the new <strong>Working Group</strong>:
-                    <ul>
-                      <li><em>Key, </em></li>
-                      <li><em>Name, and </em></li>
-                      <li><em>General Information</em></li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
-      <section>
-        <h2>Working Areas</h2>
-        <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-          <li>This page allows you to manage the list of <strong>Working Areas</strong> displayed by the <strong>Integrated Viewer Tool</strong>.</li>
-          <li>A<strong> Working Area</strong> MUST be defined inside of a Working Group.</li>
-        </ul>
-        <table id="t-working-areas" style="height: 87px;" width="1011" data-mce-style="height: 87px;" class="mce-item-table"><caption>Working Areas</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Working Group</td>
-              <td>
-                <ul>
-                  <li>A <strong>Working Area</strong> MUST belong to a single <strong>Working Group</strong>.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>Name</td>
-              <td>
-                <ul>
-                  <li>Name of the <strong>Working Area</strong>.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>Description</td>
-              <td>
-                <ul>
-                  <li>Description of the <strong>Working Area</strong></li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>Edit</td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Edit</strong>" button will allow the staff to update:<br>
-                    <ul>
-                      <li><em>Working Group,</em>
-                        <ul>
-                          <li>Only Working Groups listed in the drop menu are allowed.</li>
-                        </ul>
-                      </li>
-                      <li><em>Name of the Working Area, </em>and</li>
-                      <li><em>Description</em></li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>Destroy</td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Destroy</strong>" button will eliminate the corresponding <strong>Working Area</strong>.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>New Working Areas</td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>New Working Area</strong>" button will allow the staff to create a new <strong>Working Area</strong> inside of an existing <strong>Working Group</strong>.</li>
-                  <li>The following information must be input:
-                    <ul>
-                      <li><em>Working Group</em>:</li>
-                      <li><em>Name</em> (of the Working Area)</li>
-                      <li><em>Description</em>:</li>
-                    </ul>
-                  </li>
-                  <li>Upon click in "<strong>Create Working Area</strong>" the system will add the new <strong>Working Area</strong> under the selected <strong>Working Group</strong>.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
-      <section>
-        <h2>Work Programs</h2>
-        <p>This page indicates how to manage the list of <strong>Releases/Repositories</strong> displayed in the <strong>Integrated Viewer Tool</strong>.</p>
-        <table id="t-working-programs" style="height: 143px;" width="999" data-mce-style="height: 143px;" class="mce-item-table"><caption>Working Program / Repositories</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><em>New Work Program</em></td>
-              <td>
-                <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-                  <li>A click in "<strong>New Work Program</strong>" will allow OMA staff to introduce a new Enabler or Repository.
-                    <ul>
-                      <li><strong><em>Working Area</em></strong> name,</li>
-                      <li><strong><em>Name</em> </strong>of the Enabler or repository</li>
-                      <li><strong><em>Status</em> </strong>of the Enabler or repository
-                        <ul>
-                          <li>Active,</li>
-                          <li>Closed</li>
-                        </ul>
-                      </li>
-                      <li><em><strong>Repository UR</strong>L</em>,</li>
-                      <li><strong><em>Default Branch</em></strong> <strong>in GitHub</strong> to point to from the <strong>Integrated Viewer</strong>.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Name</em></td>
-              <td>
-                <ul>
-                  <li>Name of the Release or Enabler or repository</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Repository URL</em></td>
-              <td>
-                <ul>
-                  <li>URL where the Enabler document are stored, (repository)</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Status</em></td>
-              <td>
-                <ul>
-                  <li>Indicates the "<strong>Status</strong>" of the Enabler or Repository</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Edit</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Edit</strong>" will allow OMA staff to update:<br>
-                    <ul>
-                      <li><strong><em>Working Area</em></strong> name,</li>
-                      <li><strong><em>Name</em> </strong>of the Enabler or repository</li>
-                      <li><strong><em>Status</em> </strong>of the Enabler or repository
-                        <ul>
-                          <li>Active,</li>
-                          <li>Closed</li>
-                        </ul>
-                      </li>
-                      <li><strong><em>Repository URL</em></strong>,</li>
-                      <li><strong><em>Default Branch</em> in GitHub</strong> to point to from the <strong>Integrated Viewer</strong>.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Destroy</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Destroy</strong>" button will remove the Enabler or Repository upon confirmation.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Templates</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Templates</strong>" button will allow OMA staff to introduce a new baseline document in the selected repository or Working Program of the Enabler.</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>&nbsp;P1 - 14th March, 30th March. For some reasons when a new template is added to the repository, the head content is not copied across.</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
-      <section>
-        <h2>Users</h2>
-        <p>This window allows the administrator to manage the users accounts.</p>
-        <table id="t-users" style="height: 106px;" width="1006" data-mce-style="height: 106px;" class="mce-item-table"><caption>User Management</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><em>User Email Address</em></td>
-              <td>
-                <ul>
-                  <li>Email address of the user.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Role</em></td>
-              <td>
-                <ul>
-                  <li>Role played by the user:
-                    <ul>
-                      <li>Administrator</li>
-                      <li>Staff</li>
-                      <li>Officer</li>
-                      <li>Editor</li>
-                      <li>Member</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Change Role</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Change Role</strong>" will allow OMA staff to change the role of an existing <strong>Integrated Viewer</strong> user.
-                    <ul>
-                      <li>The possible roles are listed below above.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>
-                <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-                  <li>&nbsp;P2 - create a matrix of access rights based on functions and roles</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td><em>Delete User</em></td>
-              <td>
-                <ul>
-                  <li>A click in "<strong>Delete User</strong>" will allow the OMA staff to delete and account upon confirmation.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Add New User</em></td>
-              <td>
-                <ul>
-                  <li>The addition of a new user to the Integrated Viewer requires to input the following information:<br>
-                    <ul>
-                      <li><em>Name</em>
-                        <ul>
-                          <li>Name of the user.</li>
-                        </ul>
-                      </li>
-                      <li><em>Email</em>
-                        <ul>
-                          <li>User email address.</li>
-                        </ul>
-                      </li>
-                      <li><em>Role</em>
-                        <ul>
-                          <li><em>Admin</em>
-                            <ul>
-                              <li>Administrator access to the application.</li>
-                            </ul>
-                          </li>
-                          <li><em>Staff</em>
-                            <ul>
-                              <li>Full write access to all the functions in the application.</li>
-                            </ul>
-                          </li>
-                          <li><em>Officer</em>
-                            <ul>
-                              <li>Partial write access to the functions in the application.</li>
-                            </ul>
-                          </li>
-                          <li><em>Editor</em>
-                            <ul>
-                              <li>A more restrictive write access than the Officer to the functions in the application.</li>
-                            </ul>
-                          </li>
-                          <li><em>Members</em>
-                            <ul>
-                              <li>Mainly read access only to the following tabs functions:<br>
-                                <ul>
-                                  <li><strong>Work Program</strong>
-                                    <ul>
-                                      <li>Ability to create and delete own Change Requests.</li>
-                                      <li>Ability to share Change Requests among other members.</li>
-                                    </ul>
-                                  </li>
-                                  <li><strong>Change Request</strong>
-                                    <ul>
-                                      <li>Ability to Withdrawn or create a new revision of a document submitted by the user.</li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><em>Password</em>
-                        <ul>
-                          <li>Input by the staff at the time of creating the user account.</li>
-                        </ul>
-                      </li>
-                      <li><em>Password Confirmation</em></li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td style="padding-left: 30px;" data-mce-style="padding-left: 30px;"><br>
-                <p><strong>P1. 3th April</strong></p>
-                The Officer roll appears twice.</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
-    </section>
-    <section>
-      <h2>My Account</h2>
-      <p>This section allows the end-user to manage its own account with the<strong> Integrated Viewer</strong>.</p>
-      <table id="t-my-account" style="height: 63px;" width="1043" data-mce-style="height: 63px;" class="mce-item-table"><caption>My Account</caption>
+      <h2>References DB</h2>
+      <ul>
+        <li>Reference Database contains the list of reference documentation.</li>
+        <li>If the reference to input in the technical document is not listed here, ReSpec will indicate that the reference is missing from this database.</li>
+        <li>It is possible to:
+          <ul>
+            <li>"Edit",</li>
+            <li>"Remove", or</li>
+            <li>"Add" a new reference</li>
+          </ul>
+        </li>
+      </ul>
+      <table id="t-reference-db" style="height: 87px;" width="1007"><caption>Reference Database</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -565,38 +93,39 @@
         </thead>
         <tbody>
           <tr>
-            <td><em>Update Password</em></td>
+            <td><em>New Reference </em></td>
             <td>
-              <ul>
-                <li>Allows individual users to update its password.</li>
-              </ul>
               <ol>
-                <li>Input your new password for the Integrated Viewer</li>
-                <li>Re-enter your new personal password as confirmation</li>
-                <li>In order to change to your new password you need to enter the old password.</li>
+                <li>Click "New Reference" to add a new reference to the database:</li>
+                <li>Input the following information:</li>
               </ol>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Link with GitHub</em></td>
-            <td>
-              <ul>
-                <li>This button allows the user to connect its <strong>Integrate Viewer</strong> account with the user personal GitHub account.
-                  <ul>
-                    <li>This connection with GitHub is needed if the user is a Chair or editor and he wants to upload a new baseline to the repository.</li>
-                    <li>For regular members with read access only to link their Integrated Viewer account with their GitHub account is not needed.</li>
-                  </ul>
-                </li>
+              <ul style="list-style-type: disc;">
+                <li><strong>Key: e.g. </strong>[OMADICT]</li>
+                <li><strong>Author:</strong></li>
+                <li><strong>Title:</strong></li>
+                <li><strong>Date: </strong>DD/MM/YYYY</li>
+                <li><strong>Draft Edition:</strong></li>
+                <li><strong>Status:</strong></li>
+                <li><strong>Publisher:</strong></li>
+                <li><strong>HREF</strong>:</li>
               </ul>
             </td>
             <td>&nbsp;</td>
           </tr>
           <tr>
-            <td><em>Cancel my Account</em></td>
+            <td><em>Edit</em></td>
             <td>
               <ul>
-                <li>This button will allow the individual user to cancel its own account with the <strong>Integrated Viewer</strong>.</li>
+                <li>Click in "<strong>Edit</strong>" button to edit and existing reference.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Destroy </em></td>
+            <td>
+              <ul style="list-style-type: disc;">
+                <li>Click in "<strong>Destroy</strong>" button to remove the reference from the database.</li>
               </ul>
             </td>
             <td>&nbsp;</td>
@@ -606,31 +135,457 @@
       <p>&nbsp;</p>
     </section>
     <section>
-      <h2>Sign Out</h2>
-      <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-        <li>A click in the "<strong>Sign Out</strong>" button will log you out of the application.</li>
+      <h2>Working Groups</h2>
+      <ul style="list-style-type: disc;">
+        <li>From this page you can manages the list of <strong>Working Groups</strong> displayed by the <strong>Integrated Viewer Tool</strong>.</li>
       </ul>
+      <table id="t-working-groups" style="height: 76px;" width="1010"><caption>Working Groups</caption>
+        <thead>
+          <tr>
+            <th>Operation</th>
+            <th>Description</th>
+            <th>Problems</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>Key</em></td>
+            <td>
+              <ul>
+                <li>Short name of the <strong>Working Group</strong> to display under <strong>Working Groups</strong>.</li>
+                <li><strong>Working Groups</strong> MAY or MAY NOT have <strong>Working Areas</strong>.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Name</em></td>
+            <td>
+              <ul>
+                <li>Administrative name of the <strong>Working Group</strong>.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Edit</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Edit</strong>" button will allow the staff to update:
+                  <ul>
+                    <li><em>Key,</em></li>
+                    <li><em>Name</em> and</li>
+                    <li><em>General Information</em> of an existing <strong>Working Group</strong>.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Destroy</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Destroy</strong>" button will eliminate the corresponding <strong>Working Group</strong> upon confirmation.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>New Working Group</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>New Working Group</strong>" button will open a new window to input the new <strong>Working Group</strong>:
+                  <ul>
+                    <li><em>Key, </em></li>
+                    <li><em>Name, and </em></li>
+                    <li><em>General Information</em></li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+    </section>
+    <section>
+      <h2>Working Areas</h2>
+      <ul style="list-style-type: disc;">
+        <li>This page allows you to manage the list of <strong>Working Areas</strong> displayed by the <strong>Integrated Viewer Tool</strong>.</li>
+        <li>A<strong> Working Area</strong> MUST be defined inside of a Working Group.</li>
+      </ul>
+      <table id="t-working-areas" style="height: 87px;" width="1011"><caption>Working Areas</caption>
+        <thead>
+          <tr>
+            <th>Operation</th>
+            <th>Description</th>
+            <th>Problems</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Working Group</td>
+            <td>
+              <ul>
+                <li>A <strong>Working Area</strong> MUST belong to a single <strong>Working Group</strong>.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>
+              <ul>
+                <li>Name of the <strong>Working Area</strong>.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>
+              <ul>
+                <li>Description of the <strong>Working Area</strong></li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Edit</td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Edit</strong>" button will allow the staff to update:<br />
+                  <ul>
+                    <li><em>Working Group,</em>
+                      <ul>
+                        <li>Only Working Groups listed in the drop menu are allowed.</li>
+                      </ul>
+                    </li>
+                    <li><em>Name of the Working Area, </em>and</li>
+                    <li><em>Description</em></li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>Destroy</td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Destroy</strong>" button will eliminate the corresponding <strong>Working Area</strong>.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>New Working Areas</td>
+            <td>
+              <ul>
+                <li>A click in "<strong>New Working Area</strong>" button will allow the staff to create a new <strong>Working Area</strong> inside of an existing <strong>Working Group</strong>.</li>
+                <li>The following information must be input:
+                  <ul>
+                    <li><em>Working Group</em>:</li>
+                    <li><em>Name</em> (of the Working Area)</li>
+                    <li><em>Description</em>:</li>
+                  </ul>
+                </li>
+                <li>Upon click in "<strong>Create Working Area</strong>" the system will add the new <strong>Working Area</strong> under the selected <strong>Working Group</strong>.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+    </section>
+    <section>
+      <h2>Work Programs</h2>
+      <p>This page indicates how to manage the list of <strong>Releases/Repositories</strong> displayed in the <strong>Integrated Viewer Tool</strong>.</p>
+      <table id="t-working-programs" style="height: 143px;" width="999"><caption>Working Program / Repositories</caption>
+        <thead>
+          <tr>
+            <th>Operation</th>
+            <th>Description</th>
+            <th>Problems</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>New Work Program</em></td>
+            <td>
+              <ul style="list-style-type: disc;">
+                <li>A click in "<strong>New Work Program</strong>" will allow OMA staff to introduce a new Enabler or Repository.
+                  <ul>
+                    <li><strong><em>Working Area</em></strong> name,</li>
+                    <li><strong><em>Name</em> </strong>of the Enabler or repository</li>
+                    <li><strong><em>Status</em> </strong>of the Enabler or repository
+                      <ul>
+                        <li>Active,</li>
+                        <li>Closed</li>
+                      </ul>
+                    </li>
+                    <li><em><strong>Repository UR</strong>L</em>,</li>
+                    <li><strong><em>Default Branch</em></strong> <strong>in GitHub</strong> to point to from the <strong>Integrated Viewer</strong>.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Name</em></td>
+            <td>
+              <ul>
+                <li>Name of the Release or Enabler or repository</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Repository URL</em></td>
+            <td>
+              <ul>
+                <li>URL where the Enabler document are stored, (repository)</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Status</em></td>
+            <td>
+              <ul>
+                <li>Indicates the "<strong>Status</strong>" of the Enabler or Repository</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Edit</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Edit</strong>" will allow OMA staff to update:<br />
+                  <ul>
+                    <li><strong><em>Working Area</em></strong> name,</li>
+                    <li><strong><em>Name</em> </strong>of the Enabler or repository</li>
+                    <li><strong><em>Status</em> </strong>of the Enabler or repository
+                      <ul>
+                        <li>Active,</li>
+                        <li>Closed</li>
+                      </ul>
+                    </li>
+                    <li><strong><em>Repository URL</em></strong>,</li>
+                    <li><strong><em>Default Branch</em> in GitHub</strong> to point to from the <strong>Integrated Viewer</strong>.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Destroy</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Destroy</strong>" button will remove the Enabler or Repository upon confirmation.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Templates</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Templates</strong>" button will allow OMA staff to introduce a new baseline document in the selected repository or Working Program of the Enabler.</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>&nbsp;P1 - 14th March, 30th March. For some reasons when a new template is added to the repository, the head content is not copied across.</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+    </section>
+    <section>
+      <h2>Users</h2>
+      <p>This window allows the administrator to manage the users accounts.</p>
+      <table id="t-users" style="height: 106px;" width="1006"><caption>User Management</caption>
+        <thead>
+          <tr>
+            <th>Operation</th>
+            <th>Description</th>
+            <th>Problems</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>User Email Address</em></td>
+            <td>
+              <ul>
+                <li>Email address of the user.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Role</em></td>
+            <td>
+              <ul>
+                <li>Role played by the user:
+                  <ul>
+                    <li>Administrator</li>
+                    <li>Staff</li>
+                    <li>Officer</li>
+                    <li>Editor</li>
+                    <li>Member</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Change Role</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Change Role</strong>" will allow OMA staff to change the role of an existing <strong>Integrated Viewer</strong> user.
+                  <ul>
+                    <li>The possible roles are listed below above.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul style="list-style-type: disc;">
+                <li>&nbsp;P2 - create a matrix of access rights based on functions and roles</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><em>Delete User</em></td>
+            <td>
+              <ul>
+                <li>A click in "<strong>Delete User</strong>" will allow the OMA staff to delete and account upon confirmation.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Add New User</em></td>
+            <td>
+              <ul>
+                <li>The addition of a new user to the Integrated Viewer requires to input the following information:<br />
+                  <ul>
+                    <li><em>Name</em>
+                      <ul>
+                        <li>Name of the user.</li>
+                      </ul>
+                    </li>
+                    <li><em>Email</em>
+                      <ul>
+                        <li>User email address.</li>
+                      </ul>
+                    </li>
+                    <li><em>Role</em>
+                      <ul>
+                        <li><em>Admin</em>
+                          <ul>
+                            <li>Administrator access to the application.</li>
+                          </ul>
+                        </li>
+                        <li><em>Staff</em>
+                          <ul>
+                            <li>Full write access to all the functions in the application.</li>
+                          </ul>
+                        </li>
+                        <li><em>Officer</em>
+                          <ul>
+                            <li>Partial write access to the functions in the application.</li>
+                          </ul>
+                        </li>
+                        <li><em>Editor</em>
+                          <ul>
+                            <li>A more restrictive write access than the Officer to the functions in the application.</li>
+                          </ul>
+                        </li>
+                        <li><em>Members</em>
+                          <ul>
+                            <li>Mainly read access only to the following tabs functions:<br />
+                              <ul>
+                                <li><strong>Work Program</strong>
+                                  <ul>
+                                    <li>Ability to create and delete own Change Requests.</li>
+                                    <li>Ability to share Change Requests among other members.</li>
+                                  </ul>
+                                </li>
+                                <li><strong>Change Request</strong>
+                                  <ul>
+                                    <li>Ability to Withdrawn or create a new revision of a document submitted by the user.</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><em>Password</em>
+                      <ul>
+                        <li>Input by the staff at the time of creating the user account.</li>
+                      </ul>
+                    </li>
+                    <li><em>Password Confirmation</em></li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td style="padding-left: 30px;"><br />
+              <p><strong>P1. 3th April</strong></p>
+              The Officer roll appears twice.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
     </section>
   </section>
   <section>
-    <h2>WG, WA, and Repositories</h2>
-    <p>The <strong>Repositories</strong> are organized inside of <strong>Working Areas</strong> and <strong>Working Groups</strong>.</p>
-    <table id="t-wg-wa-repositories" style="height: 368px;" width="1070" data-mce-style="height: 368px;" class="mce-item-table"><caption>WG, WA and Repositories</caption>
+    <h2>My Account</h2>
+    <p>This section allows the end-user to manage its own account with the<strong> Integrated Viewer</strong>.</p>
+    <table id="t-my-account" style="height: 63px;" width="1043"><caption>My Account</caption>
       <thead>
         <tr>
           <th>Operation</th>
           <th>Description</th>
-          <th>Problem</th>
+          <th>Problems</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><em>Working Groups</em></td>
+          <td><em>Update Password</em></td>
           <td>
             <ul>
-              <li>1st level<br>
+              <li>Allows individual users to update its password.</li>
+            </ul>
+            <ol>
+              <li>Input your new password for the Integrated Viewer</li>
+              <li>Re-enter your new personal password as confirmation</li>
+              <li>In order to change to your new password you need to enter the old password.</li>
+            </ol>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><em>Link with GitHub</em></td>
+          <td>
+            <ul>
+              <li>This button allows the user to connect its <strong>Integrate Viewer</strong> account with the user personal GitHub account.
                 <ul>
-                  <li>Select a working group</li>
+                  <li>This connection with GitHub is needed if the user is a Chair or editor and he wants to upload a new baseline to the repository.</li>
+                  <li>For regular members with read access only to link their Integrated Viewer account with their GitHub account is not needed.</li>
                 </ul>
               </li>
             </ul>
@@ -638,48 +593,10 @@
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td><em>Working Areas</em></td>
+          <td><em>Cancel my Account</em></td>
           <td>
             <ul>
-              <li>2nd level<br>
-                <ul>
-                  <li>Select a Working Area</li>
-                </ul>
-              </li>
-            </ul>
-          </td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><em>Repositories</em></td>
-          <td>
-            <ul>
-              <li>3rd level<br>
-                <ul>
-                  <li>Select a Repository or Project</li>
-                </ul>
-              </li>
-            </ul>
-          </td>
-          <td>&nbsp;</td>
-        </tr>
-        <tr>
-          <td><em>Tab Menu</em></td>
-          <td>
-            <ul>
-              <li>4rd level<br>
-                <ul>
-                  <li>Select a tab menu:
-                    <ul>
-                      <li>General</li>
-                      <li>Work Program</li>
-                      <li>Change Request</li>
-                      <li>Repository</li>
-                      <li>Publication</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
+              <li>This button will allow the individual user to cancel its own account with the <strong>Integrated Viewer</strong>.</li>
             </ul>
           </td>
           <td>&nbsp;</td>
@@ -689,583 +606,118 @@
     <p>&nbsp;</p>
   </section>
   <section>
-    <h2>Tab Menus</h2>
-    <p>&nbsp;This section describes the functionality of the tab menus.</p>
-    <section>
-      <h2>General</h2>
-      <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-        <li>It doesn't have any functionality associated yet.</li>
-        <li>Eventually, it will contain General information related to the Working Group or even Working Area.</li>
-      </ul>
-    </section>
-    <section>
-      <h2>Work Program</h2>
-      <p>The content of this window is explained in the following two sections:</p>
-      <ul>
-        <li><strong>"Document Baseline"</strong>
+    <h2>Sign Out</h2>
+    <ul style="list-style-type: disc;">
+      <li>A click in the "<strong>Sign Out</strong>" button will log you out of the application.</li>
+    </ul>
+  </section>
+</section>
+<section>
+  <h2>WG, WA, and Repositories</h2>
+  <p>The <strong>Repositories</strong> are organized inside of <strong>Working Areas</strong> and <strong>Working Groups</strong>.</p>
+  <table id="t-wg-wa-repositories" style="height: 368px;" width="1070"><caption>WG, WA and Repositories</caption>
+    <thead>
+      <tr>
+        <th>Operation</th>
+        <th>Description</th>
+        <th>Problem</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><em>Working Groups</em></td>
+        <td>
           <ul>
-            <li>Half-right side of the window.</li>
+            <li>1st level<br />
+              <ul>
+                <li>Select a working group</li>
+              </ul>
+            </li>
           </ul>
-        </li>
-        <li><strong>"Your Change Requests"</strong>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><em>Working Areas</em></td>
+        <td>
           <ul>
-            <li>Half-left side of the window.</li>
+            <li>2nd level<br />
+              <ul>
+                <li>Select a Working Area</li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-      <section>
-        <h2>Document Baseline</h2>
-        <p>This side of the screen contains all the document baselines stored in the corresponding GitHub repository:</p>
-        <p>&nbsp;</p>
-        <table id="t-document-baseline" style="height: 47px;" width="980" data-mce-style="height: 47px;" class="mce-item-table"><caption>Document Baseline</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problem</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><em>Document Baselines </em></td>
-              <td>
-                <ul>
-                  <li>This column lists all the documents contained inside of the repository.</li>
-                  <li>Document are organized inside of folders, (one level only).</li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>Priority 2 (P2)<br>
-                    <ul>
-                      <li>Subfolders inside of folders are not correctly represented. Content of subfolders seems to be replicated using the same name as the subfolder.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td><em>Last Merged</em></td>
-              <td>
-                <ul>
-                  <li><em>Date/Time</em><br>
-                    <ul>
-                      <li>Date/Time (UTC) of the last CR that was merged.</li>
-                    </ul>
-                  </li>
-                  <li><em>Author</em>
-                    <ul>
-                      <li>Name of the person which latest change request was merged in the baseline.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Author</em></td>
-              <td>
-                <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                  <li>This column indicates the name of the person that &nbsp;has submitted the last merged Pull Request for the corresponding baseline</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Compare</em></td>
-              <td>
-                <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-                  <li>A click in the word "<strong>Compare</strong>" button will open a new web page:
-                    <ul style="list-style-type: disc;" data-mce-style="list-style-type: disc;">
-                      <li>Containing all the baselines versions for that particular document</li>
-                      <li>This page will allow you to compare to of the selected baselines.</li>
-                    </ul>
-                  </li>
-                </ul>
-                <ol>
-                  <li>The first box to tick should be the oldest baseline that you want to compare.</li>
-                  <li>The second box to tick should be the for the newest baseline.</li>
-                </ol>
-                <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                  <li>If you follow the sequence of selecting first the oldest baseline followed by the newest, then the comparing function will give you highlight in green what was added new to the newest baseline and in red what was deleted from the old baseline.</li>
-                </ul>
-                <p>Note: Alternative, if you change the selection sequence you will have the opposite result.</p>
-              </td>
-              <td>
-                <ul>
-                  <li>P2 3rd April - this function&nbsp;takes very long time to compare.</li>
-                </ul>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
-      <section>
-        <h2>Your Change Requests</h2>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><em>Repositories</em></td>
+        <td>
+          <ul>
+            <li>3rd level<br />
+              <ul>
+                <li>Select a Repository or Project</li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><em>Tab Menu</em></td>
+        <td>
+          <ul>
+            <li>4rd level<br />
+              <ul>
+                <li>Select a tab menu:
+                  <ul>
+                    <li>General</li>
+                    <li>Work Program</li>
+                    <li>Change Request</li>
+                    <li>Repository</li>
+                    <li>Publication</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+</section>
+<section>
+  <h2>Tab Menus</h2>
+  <p>&nbsp;This section describes the functionality of the tab menus.</p>
+  <section>
+    <h2>General</h2>
+    <ul style="list-style-type: disc;">
+      <li>It doesn't have any functionality associated yet.</li>
+      <li>Eventually, it will contain General information related to the Working Group or even Working Area.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Work Program</h2>
+    <p>The content of this window is explained in the following two sections:</p>
+    <ul>
+      <li><strong>"Document Baseline"</strong>
         <ul>
-          <li>The left-hand side of the screen is a personal and private section. It contains Change Requests created by the end-user that haven't been submitted yet.</li>
-          <li>The Change Requests in this section of the screen are only visible to the account holder, they are NOT visible to the rest of user accounts.&nbsp;
-            <ul>
-              <li>Note: Please, note that it is possible for an user to share her Change Request with specific members or with ALL the users of the <strong>Integrated Viewer</strong>.</li>
-            </ul>
-          </li>
+          <li>Half-right side of the window.</li>
         </ul>
-        <table id="t-your-change-requests" style="height: 79px;" width="1009" data-mce-style="height: 79px;" class="mce-item-table"><caption>Your Change Requests</caption>
-          <thead>
-            <tr>
-              <th>Operation</th>
-              <th>Description</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><em>Create a CR</em></td>
-              <td>
-                <ol>
-                  <li>Click in "<strong>CR</strong>" button to create a new Change Request.
-                    <ul>
-                      <li>The CR file name is pre-constructed at the time of creating the CR.
-                        <ul>
-                          <li>OMA-&lt;WG&gt;-&lt;Year&gt;-&lt;incremental number&gt;_&lt;title&gt;</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ol>
-                <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                  <li>Note: the Change Request title MUST be unique. The system doesn't accept two Change Request with the same name.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Edit a CR</em></td>
-              <td>
-                <ol>
-                  <li>Click in the "<strong>Edit</strong>" button to start editing an existing, not submitted yet, Change Request.</li>
-                </ol>
-                <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                  <li>Once the Editor opens it is possible to share with other users the Change Request by clicking in the "<strong>Collaboration</strong>" button at the top of the Editor Tool.</li>
-                  <li>The options are:
-                    <ul>
-                      <li><strong>Private</strong> (<em>single person icon</em>)
-                        <ul>
-                          <li>It is the default setting.</li>
-                          <li>In this mode the CR is only visible by the creation until it is submitted to the Group.</li>
-                        </ul>
-                      </li>
-                      <li><strong>Public</strong> (<em>World icon</em>)<br>
-                        <ul>
-                          <li>The CR is made available to all users of the Integrated Viewer.</li>
-                          <li>Public CRs can be seen when clicking in the "Edit" button.</li>
-                        </ul>
-                      </li>
-                      <li><strong>Collaborate</strong> (<em>collaboration icon</em>)<br>
-                        <ul>
-                          <li>The CR is made available to a selected group of end-users that have an account with the <strong>Integrated Viewer</strong>.</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>
-                <ul>
-                  <li>P1 - <strong>3rd April</strong> In a share mode, I am still being able to edit a submitted document. I believe that before a sharing operation, the system needs to check that (if the document is marked as shared) that saving is only possible if the document has not been submitted.</li>
-                  <li>You should be able to reproduce the problem following this sequence:</li>
-                  <li>&nbsp;A user creates CR and shares it with B user.</li>
-                  <li>Both users start editing the document.</li>
-                  <li>B adds some lines and submitted the document.</li>
-                  <li>A (as long as it stays in the Editor) can continue editing the CR after B has submitted.</li>
-                  <li>Once A leaves the editor mode back to the Work Program page, the document is not available for editing BUT the provided by A were added to the already submitted CR.</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td><em>Compare CRs</em></td>
-              <td>
-                <ol>
-                  <li>Click the "<strong>Compare</strong>" drop menu to view all the commits (Changes) for a particular Change Request.</li>
-                  <li>Upon selecting a Change Request, a new window will open to compare the different changes apply to the Change Request.</li>
-                  <li>Select the oldest commit tick box followed by the newest commit.</li>
-                </ol>
-                <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                  <li>Note: if you compare two commits following this sequence you will see the new additions of the newest Change Request highlighted in green and the deletions in red.</li>
-                </ul>
-                <p>Note: Each commit contain the changes saved after click "Save" button in the editor.</p>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Submit CRs</em></td>
-              <td>
-                <ul>
-                  <li>Click in "<strong>Submit</strong>" drop menu to select which of the existing, not submitted, Change Requests you want to submit to the Working Group.</li>
-                  <li>Once the CR is submitted it will disappear from the private area of the user.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><em>Delete CRs</em></td>
-              <td>
-                <ul>
-                  <li>Click in "<strong>Delete</strong>" drop menu to select which of the listed Change Requests you want to delete.</li>
-                </ul>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>&nbsp;</p>
-      </section>
+      </li>
+      <li><strong>"Your Change Requests"</strong>
+        <ul>
+          <li>Half-left side of the window.</li>
+        </ul>
+      </li>
+    </ul>
+    <section>
+      <h2>Document Baseline</h2>
+      <p>This side of the screen contains all the document baselines stored in the corresponding GitHub repository:</p>
       <p>&nbsp;</p>
-    </section>
-    <section>
-      <h2>Change Requests</h2>
-      <p>This section describes the functionality available in under the Change Request tab.</p>
-      <table id="t-change-requests" style="height: 139px;" width="1044" data-mce-style="height: 139px;" class="mce-item-table"><caption>Change Requests</caption>
-        <thead>
-          <tr>
-            <th>Operation</th>
-            <th>Description</th>
-            <th>Problems</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><em>Show Entries</em></td>
-            <td>
-              <ul>
-                <li>This drop menu allows you to control the number of Change Requests to display: 10, 25, 50 or 100.</li>
-                <li>At the button of the table is possible to move to the next group of Change Requests to display.</li>
-              </ul>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Search</em></td>
-            <td>
-              <ul>
-                <li>Filter the list of Change Requests by any word in the Change Request title.</li>
-              </ul>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Number</em></td>
-            <td>
-              <ul>
-                <li>Sort out function, by default Change Requests are listed in descending order</li>
-                <li>If click in the icon the sort out is reversed.</li>
-              </ul>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Comment (C)</em></td>
-            <td>
-              <ul>
-                <li>Allow users to input comments against the Change Request</li>
-              </ul>
-            </td>
-            <td>
-              <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                <li>&nbsp;P2. <strong>13th April</strong>. By default the text box should be a bit larger. In this way it is easier to input text more comfortable.</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td><em>Change Requests</em></td>
-            <td>
-              <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                <li>Name of the Change Request that has been submitted</li>
-                <li>A click in this link will provide provide change marks of the changes introduced by this Change Request:
-                  <ul>
-                    <li>Green indicates what has been added by the Change Request, and</li>
-                    <li>Red colour indicates what has been deleted by the Change Request</li>
-                  </ul>
-                </li>
-              </ul>
-              <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                <li>Note: A click in the the title "Change Requests" will sort the titles of the Change Request in alphabetic order, a second click will reverse the sort out.</li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li><strong>P1. 13th April</strong> (comparing function is not showing changes correctly)<br>
-                  <ul>
-                    <li>I don't know if we are getting to the limit of what this comparing function can provide.</li>
-                    <li>If you delete a single word in a paragraph, the deleted word is marked as deleted but in a different paragraph and also the rest of the paragraph is marked as new.</li>
-                  </ul>
-                </li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td><em>Baseline</em></td>
-            <td>
-              <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                <li>Content of the baseline used to create the Change Request.</li>
-                <li>Its content is frozen in time.</li>
-              </ul>
-              <p>Note: A click in the "CR Against Baseline" title will sort out the baselines in alphabetic order, (A to Z). A new click will reverse the sort out (Z to A).</p>
-            </td>
-            <td>
-              <ul>
-                <li><strong>P1</strong> - 30th Mar.<strong> 13th April.</strong> It doesn't work, the baseline displayed here is the actual change request. It should be the baseline without the change request, the one that was used to create the change request.</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td><em>State</em></td>
-            <td>
-              <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                <li>Indicates the "<strong>State</strong>" of the Change Requests submitted.</li>
-              </ul>
-              <p>Note: A click in the title "<strong>State</strong>" will sort out the list of Change Requests by state. A new click will reverse the sort out.</p>
-              <ul style="list-style-type: circle;" data-mce-style="list-style-type: circle;">
-                <li>"<strong>Revision</strong>" state
-                  <ul>
-                    <li>This state is selected by the Officer or Staff and allows the user that submitted the change request to continue editing the Change Request on its private area.</li>
-                  </ul>
-                </li>
-              </ul>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Author</em></td>
-            <td>
-              <ul>
-                <li>Name of the user that submitted the Change Request.</li>
-              </ul>
-              <p>Note: A click in the "<strong>Author</strong>" title will sort out the authors list in alphabetic order. A new click will reverse the sort out.</p>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Created At</em></td>
-            <td>
-              <ul>
-                <li>&nbsp;Indicates date and time (UTC) when the document was submitted.</li>
-              </ul>
-              <p>Note: A click in the "<strong>Created At</strong>" title will sort out the list of Change Requests by submission time.&nbsp; A new click will reverse the sort out.</p>
-            </td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><em>Actions</em></td>
-            <td>
-              <ul>
-                <li>&nbsp;Possible states: (see Discussion Flow below)<br>
-                  <ul>
-                    <li>"Withdrawn"</li>
-                    <li>"Revision"</li>
-                    <li>"Noted"</li>
-                    <li>"Agreed"</li>
-                    <li>"Postponed"</li>
-                    <li>"Conflict"</li>
-                    <li>"Merged"</li>
-                  </ul>
-                </li>
-              </ul>
-            </td>
-            <td>
-              <p>&nbsp;</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <section>
-        <h2>Discussion Flow</h2>
-        <p>This section describes how the State sequence works.</p>
-        <table id="t-discussion-flow" style="height: 149px;" width="1048" data-mce-style="height: 149px;" class="mce-item-table"><caption>Discussion Flow</caption>
-          <thead>
-            <tr>
-              <th colspan="2">&nbsp;</th>
-              <th colspan="4"><em>Available Options in the "Action Column" as seen by</em></th>
-            </tr>
-            <tr>
-              <th>Flow</th>
-              <th>State Column</th>
-              <th>Member</th>
-              <th>Officer, Staff, Editor</th>
-              <th>Admin</th>
-              <th>Problems</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <ul>
-                  <li>Member submits Change Request (CR) from the Work Program tab</li>
-                  <li>The member that has submitted the CR should have the option to mark it as a "<strong>Withdrawn</strong>"</li>
-                  <li>After submitting the CR, the changes in the Change Request tab are --&gt;</li>
-                </ul>
-              </td>
-              <td>"Submitted"</td>
-              <td>"Withdrawn"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If the member marked as a "<strong>Withdrawn</strong>" then, see columns on the left</li>
-                  <li>There is no further discussion or work on this CR unless Admin reverse the status</li>
-                </ul>
-              </td>
-              <td>"Withdrawn"</td>
-              <td>&lt;blank&gt;</td>
-              <td>&lt;blank&gt;</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If the Officer, Staff or Editor marked the state of the CR as a "<strong>Noted</strong>", then --&gt;</li>
-                  <li>If the group wants to change this state they will have to request to Admin</li>
-                </ul>
-              </td>
-              <td>"Noted"</td>
-              <td>&lt;blank&gt;</td>
-              <td>&lt;blank&gt;</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If the CR is marked as a "<strong>Postponed</strong>", then --&gt;
-                    <ul>
-                      <li>The CR will be discussed another time.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>"Postponed"</td>
-              <td>&lt;blank&gt;</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If the CR is marked as a "<strong>Revision</strong>"
-                    <ul>
-                      <li>It means that the document is not accepted with its current content but there are some aspects <br>
-                         that may be acceptable if the submitter change the CR according tot he feedback provided.</li>
-                      <li>In this case the submitter will see in the "<strong>Actions</strong>" column the "State"&nbsp; "<strong>Revision</strong>".</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>"Revision"</td>
-              <td>"Revision"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If the submitter, clicks in the "<strong>Revision</strong>" button, then --&gt;
-                    <ul>
-                      <li>&nbsp;the CR will appear again in the list of CRs to edit, Work Program private tab.</li>
-                      <li>It is at this time when the submitter decides if he wants to make this CR public available or only available to a few<br>
-                         members.</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>"Revision"</td>
-              <td>&lt;blank&gt;</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If the CR is marked as a "<strong>Agreed</strong>", then --&gt;
-                    <ul>
-                      <li>The CR can be merged, it may be decided by the Chair to merge a later stage rather than during the meeting</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>"Agreed"</td>
-              <td>&lt;blank&gt;</td>
-              <td>"Merge"</td>
-              <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed", "Merge"</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If click in "<strong>Merge</strong>", then a pop up window will ask for confirmation. If confirmed, then the CR will be merged in the corresponding baseline.<br>
-                    <ul>
-                      <li>If there is no conflict at the time of merging then --&gt;</li>
-                    </ul>
-                  </li>
-                </ul>
-              </td>
-              <td>"Merged"</td>
-              <td>&lt;blank&gt;</td>
-              <td>&lt;blank&gt;</td>
-              <td>
-                <p>&lt;blank&gt;</p>
-                <p>Question: How to undo merge?</p>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>If during the merge there is a conflict, then --&gt;</li>
-                </ul>
-              </td>
-              <td>"Conflict"</td>
-              <td>&lt;blank&gt;</td>
-              <td>
-                <p>"Merge"</p>
-                <p>Question: How to resolve merge?</p>
-              </td>
-              <td>
-                <p>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed", "Merge"</p>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td>
-                <ul>
-                  <li>After the conflict is resolved, then --&gt;&nbsp; refer to "<strong>Merge</strong>" without conflict.</li>
-                </ul>
-              </td>
-              <td>"Merged"</td>
-              <td>&lt;blank&gt;</td>
-              <td>&lt;blank&gt;</td>
-              <td>
-                <p>&lt;blank&gt;</p>
-                <p>Question: How to undo merge?</p>
-              </td>
-              <td>&nbsp;</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-    </section>
-    <section>
-      <h2>Repository</h2>
-      <p>A click in this tab will take you to the corresponding GitHub repository.</p>
-      <p>Please note that if you encountered a "<strong>404 Error message</strong>", it means that you don't have the correct access rights to view the repository.</p>
-      <table id="t-public" style="height: 112px;" width="1014" data-mce-style="height: 112px;" class="mce-item-table"><caption>Repository</caption>
+      <table id="t-document-baseline" style="height: 47px;" width="980"><caption>Document Baseline</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1275,22 +727,91 @@
         </thead>
         <tbody>
           <tr>
-            <td>Public</td>
+            <td><em>Document Baselines </em></td>
             <td>
               <ul>
-                <li>A click in this link will take you to the corresponding GitHub repository</li>
+                <li>This column lists all the documents contained inside of the repository.</li>
+                <li>Document are organized inside of folders, (one level only).</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Priority 2 (P2)<br />
+                  <ul>
+                    <li>Subfolders inside of folders are not correctly represented. Content of subfolders seems to be replicated using the same name as the subfolder.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td><em>Last Merged</em></td>
+            <td>
+              <ul>
+                <li><em>Date/Time</em><br />
+                  <ul>
+                    <li>Date/Time (UTC) of the last CR that was merged.</li>
+                  </ul>
+                </li>
+                <li><em>Author</em>
+                  <ul>
+                    <li>Name of the person which latest change request was merged in the baseline.</li>
+                  </ul>
+                </li>
               </ul>
             </td>
             <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Author</em></td>
+            <td>
+              <ul style="list-style-type: circle;">
+                <li>This column indicates the name of the person that &nbsp;has submitted the last merged Pull Request for the corresponding baseline</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Compare</em></td>
+            <td>
+              <ul style="list-style-type: disc;">
+                <li>A click in the word "<strong>Compare</strong>" button will open a new web page:
+                  <ul style="list-style-type: disc;">
+                    <li>Containing all the baselines versions for that particular document</li>
+                    <li>This page will allow you to compare to of the selected baselines.</li>
+                  </ul>
+                </li>
+              </ul>
+              <ol>
+                <li>The first box to tick should be the oldest baseline that you want to compare.</li>
+                <li>The second box to tick should be the for the newest baseline.</li>
+              </ol>
+              <ul style="list-style-type: circle;">
+                <li>If you follow the sequence of selecting first the oldest baseline followed by the newest, then the comparing function will give you highlight in green what was added new to the newest baseline and in red what was deleted from the old baseline.</li>
+              </ul>
+              <p>Note: Alternative, if you change the selection sequence you will have the opposite result.</p>
+            </td>
+            <td>
+              <ul>
+                <li>P2 3rd April - this function&nbsp;takes very long time to compare.</li>
+              </ul>
+            </td>
           </tr>
         </tbody>
       </table>
       <p>&nbsp;</p>
     </section>
     <section>
-      <h2>Publish</h2>
-      <p>This tab is used by the Admin to publish the baselines in the repository.</p>
-      <table id="t-publish" style="height: 94px;" width="1045" data-mce-style="height: 94px;" class="mce-item-table"><caption>Publish</caption>
+      <h2>Your Change Requests</h2>
+      <ul>
+        <li>The left-hand side of the screen is a personal and private section. It contains Change Requests created by the end-user that haven't been submitted yet.</li>
+        <li>The Change Requests in this section of the screen are only visible to the account holder, they are NOT visible to the rest of user accounts.&nbsp;
+          <ul>
+            <li>Note: Please, note that it is possible for an user to share her Change Request with specific members or with ALL the users of the <strong>Integrated Viewer</strong>.</li>
+          </ul>
+        </li>
+      </ul>
+      <table id="t-your-change-requests" style="height: 79px;" width="1009"><caption>Your Change Requests</caption>
         <thead>
           <tr>
             <th>Operation</th>
@@ -1300,117 +821,464 @@
         </thead>
         <tbody>
           <tr>
-            <td><em>Publish</em></td>
+            <td><em>Create a CR</em></td>
             <td>
-              <ul>
-                <li>&nbsp;A click in the "Publish" button will publish the baselines in the repository.</li>
-              </ul>
-            </td>
-            <td>
-              <ul>
-                <li>&nbsp;P2. Can we just published specific baselines rather than all the baselines in the repo?</li>
-              </ul>
-            </td>
-          </tr>
-          <tr>
-            <td><em>Document Baselines</em></td>
-            <td>
-              <ul>
-                <li>List of all the baselines available in the repository.</li>
+              <ol>
+                <li>Click in "<strong>CR</strong>" button to create a new Change Request.
+                  <ul>
+                    <li>The CR file name is pre-constructed at the time of creating the CR.
+                      <ul>
+                        <li>OMA-&lt;WG&gt;-&lt;Year&gt;-&lt;incremental number&gt;_&lt;title&gt;</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+              <ul style="list-style-type: circle;">
+                <li>Note: the Change Request title MUST be unique. The system doesn't accept two Change Request with the same name.</li>
               </ul>
             </td>
             <td>&nbsp;</td>
           </tr>
           <tr>
-            <td><em>Actions</em></td>
+            <td><em>Edit a CR</em></td>
             <td>
-              <ul>
-                <li>&nbsp;A click in "<strong>Edit Pre-publish Version</strong>" button will allow admin to edit the metada information of the document, (baseline front cover).<br>
+              <ol>
+                <li>Click in the "<strong>Edit</strong>" button to start editing an existing, not submitted yet, Change Request.</li>
+              </ol>
+              <ul style="list-style-type: circle;">
+                <li>Once the Editor opens it is possible to share with other users the Change Request by clicking in the "<strong>Collaboration</strong>" button at the top of the Editor Tool.</li>
+                <li>The options are:
                   <ul>
-                    <li>Also, it is possible to provide editorial changes to the body of the document.</li>
+                    <li><strong>Private</strong> (<em>single person icon</em>)
+                      <ul>
+                        <li>It is the default setting.</li>
+                        <li>In this mode the CR is only visible by the creation until it is submitted to the Group.</li>
+                      </ul>
+                    </li>
+                    <li><strong>Public</strong> (<em>World icon</em>)<br />
+                      <ul>
+                        <li>The CR is made available to all users of the Integrated Viewer.</li>
+                        <li>Public CRs can be seen when clicking in the "Edit" button.</li>
+                      </ul>
+                    </li>
+                    <li><strong>Collaborate</strong> (<em>collaboration icon</em>)<br />
+                      <ul>
+                        <li>The CR is made available to a selected group of end-users that have an account with the <strong>Integrated Viewer</strong>.</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>
             </td>
             <td>
               <ul>
-                <li><strong>P1 - 30th Mar</strong>. At the time of publication the content in the HEAD is removed.</li>
+                <li>P1 - <strong>3rd April</strong> In a share mode, I am still being able to edit a submitted document. I believe that before a sharing operation, the system needs to check that (if the document is marked as shared) that saving is only possible if the document has not been submitted.</li>
+                <li>You should be able to reproduce the problem following this sequence:</li>
+                <li>&nbsp;A user creates CR and shares it with B user.</li>
+                <li>Both users start editing the document.</li>
+                <li>B adds some lines and submitted the document.</li>
+                <li>A (as long as it stays in the Editor) can continue editing the CR after B has submitted.</li>
+                <li>Once A leaves the editor mode back to the Work Program page, the document is not available for editing BUT the provided by A were added to the already submitted CR.</li>
               </ul>
             </td>
+          </tr>
+          <tr>
+            <td><em>Compare CRs</em></td>
+            <td>
+              <ol>
+                <li>Click the "<strong>Compare</strong>" drop menu to view all the commits (Changes) for a particular Change Request.</li>
+                <li>Upon selecting a Change Request, a new window will open to compare the different changes apply to the Change Request.</li>
+                <li>Select the oldest commit tick box followed by the newest commit.</li>
+              </ol>
+              <ul style="list-style-type: circle;">
+                <li>Note: if you compare two commits following this sequence you will see the new additions of the newest Change Request highlighted in green and the deletions in red.</li>
+              </ul>
+              <p>Note: Each commit contain the changes saved after click "Save" button in the editor.</p>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Submit CRs</em></td>
+            <td>
+              <ul>
+                <li>Click in "<strong>Submit</strong>" drop menu to select which of the existing, not submitted, Change Requests you want to submit to the Working Group.</li>
+                <li>Once the CR is submitted it will disappear from the private area of the user.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><em>Delete CRs</em></td>
+            <td>
+              <ul>
+                <li>Click in "<strong>Delete</strong>" drop menu to select which of the listed Change Requests you want to delete.</li>
+              </ul>
+            </td>
+            <td>&nbsp;</td>
           </tr>
         </tbody>
       </table>
       <p>&nbsp;</p>
     </section>
+    <p>&nbsp;</p>
   </section>
   <section>
-    <h2>Functions Available on Editor Mode</h2>
-    <p>This section explains what functions are available once the editor has been invoked.</p>
-    <table id="t-editor-mode" style="height: 522px;" width="889" data-mce-style="height: 522px;" class="mce-item-table"><caption>Functions Available on Editor Mode</caption>
+    <h2>Change Requests</h2>
+    <p>This section describes the functionality available in under the Change Request tab.</p>
+    <table id="t-change-requests" style="height: 139px;" width="1044"><caption>Change Requests</caption>
       <thead>
         <tr>
-          <th>Operations</th>
+          <th>Operation</th>
           <th>Description</th>
           <th>Problems</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><em>Preview</em></td>
+          <td><em>Show Entries</em></td>
           <td>
             <ul>
-              <li>Click in "<strong>Preview</strong>" button if you want to see how the document will look like once it is rendered by the browser.</li>
-              <li>To come back on the Editor Mode, just click anywhere outside of the rendered document</li>
+              <li>This drop menu allows you to control the number of Change Requests to display: 10, 25, 50 or 100.</li>
+              <li>At the button of the table is possible to move to the next group of Change Requests to display.</li>
             </ul>
           </td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td><em>Edit Document Head</em></td>
+          <td><em>Search</em></td>
           <td>
             <ul>
-              <li>Regular Members don't have access to this functionality.</li>
-              <li>Only Officers, Editors and OMA staff is able to view "<strong>Edit Document Head</strong>" button.<br>
-                <ul>
-                  <li>A click in this button will show the configuration of the document contained int he HEAD part of the html file.</li>
-                </ul>
-              </li>
-              <li>The configuration options are: (pending)</li>
+              <li>Filter the list of Change Requests by any word in the Change Request title.</li>
             </ul>
           </td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <td><em>Collaboration</em></td>
+          <td><em>Number</em></td>
           <td>
             <ul>
-              <li>This function is available to everyone and allows you to make your private Change Request:
+              <li>Sort out function, by default Change Requests are listed in descending order</li>
+              <li>If click in the icon the sort out is reversed.</li>
+            </ul>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><em>Comment (C)</em></td>
+          <td>
+            <ul>
+              <li>Allow users to input comments against the Change Request</li>
+            </ul>
+          </td>
+          <td>
+            <ul style="list-style-type: circle;">
+              <li>&nbsp;P2. <strong>13th April</strong>. By default the text box should be a bit larger. In this way it is easier to input text more comfortable.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><em>Change Requests</em></td>
+          <td>
+            <ul style="list-style-type: circle;">
+              <li>Name of the Change Request that has been submitted</li>
+              <li>A click in this link will provide provide change marks of the changes introduced by this Change Request:
                 <ul>
-                  <li><strong>Private</strong> (default)</li>
-                  <li><strong>Public</strong>, or</li>
-                  <li><strong>Share with a select group of individuals</strong></li>
+                  <li>Green indicates what has been added by the Change Request, and</li>
+                  <li>Red colour indicates what has been deleted by the Change Request</li>
                 </ul>
               </li>
-              <li>A click in one of the options that is not "<strong>Private</strong>" will make your Change Request available to everyone or to a selected group of people.
+            </ul>
+            <ul style="list-style-type: circle;">
+              <li>Note: A click in the the title "Change Requests" will sort the titles of the Change Request in alphabetic order, a second click will reverse the sort out.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><strong>P1. 13th April</strong> (comparing function is not showing changes correctly)<br />
                 <ul>
-                  <li>Once the Change Request is submitted to OMA, (by you or your collaborates) the Change Request will not be longer available for editing again.</li>
+                  <li>I don't know if we are getting to the limit of what this comparing function can provide.</li>
+                  <li>If you delete a single word in a paragraph, the deleted word is marked as deleted but in a different paragraph and also the rest of the paragraph is marked as new.</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><em>Baseline</em></td>
+          <td>
+            <ul style="list-style-type: circle;">
+              <li>Content of the baseline used to create the Change Request.</li>
+              <li>Its content is frozen in time.</li>
+            </ul>
+            <p>Note: A click in the "CR Against Baseline" title will sort out the baselines in alphabetic order, (A to Z). A new click will reverse the sort out (Z to A).</p>
+          </td>
+          <td>
+            <ul>
+              <li><strong>P1</strong> - 30th Mar.<strong> 13th April.</strong> It doesn't work, the baseline displayed here is the actual change request. It should be the baseline without the change request, the one that was used to create the change request.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><em>State</em></td>
+          <td>
+            <ul style="list-style-type: circle;">
+              <li>Indicates the "<strong>State</strong>" of the Change Requests submitted.</li>
+            </ul>
+            <p>Note: A click in the title "<strong>State</strong>" will sort out the list of Change Requests by state. A new click will reverse the sort out.</p>
+            <ul style="list-style-type: circle;">
+              <li>"<strong>Revision</strong>" state
+                <ul>
+                  <li>This state is selected by the Officer or Staff and allows the user that submitted the change request to continue editing the Change Request on its private area.</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><em>Author</em></td>
+          <td>
+            <ul>
+              <li>Name of the user that submitted the Change Request.</li>
+            </ul>
+            <p>Note: A click in the "<strong>Author</strong>" title will sort out the authors list in alphabetic order. A new click will reverse the sort out.</p>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><em>Created At</em></td>
+          <td>
+            <ul>
+              <li>&nbsp;Indicates date and time (UTC) when the document was submitted.</li>
+            </ul>
+            <p>Note: A click in the "<strong>Created At</strong>" title will sort out the list of Change Requests by submission time.&nbsp; A new click will reverse the sort out.</p>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><em>Actions</em></td>
+          <td>
+            <ul>
+              <li>&nbsp;Possible states: (see Discussion Flow below)<br />
+                <ul>
+                  <li>"Withdrawn"</li>
+                  <li>"Revision"</li>
+                  <li>"Noted"</li>
+                  <li>"Agreed"</li>
+                  <li>"Postponed"</li>
+                  <li>"Conflict"</li>
+                  <li>"Merged"</li>
                 </ul>
               </li>
             </ul>
           </td>
           <td>
-            <ul>
-              <li><strong>P1 - 3rd April</strong>. See comments on "Your Change Request" Section.</li>
-            </ul>
-            <p>Note: I believe that this problems could be resolved by refresing the system before saving in case the document is being shared and it has been submitted by one of the parties.</p>
             <p>&nbsp;</p>
           </td>
         </tr>
+      </tbody>
+    </table>
+    <section>
+      <h2>Discussion Flow</h2>
+      <p>This section describes how the State sequence works.</p>
+      <table id="t-discussion-flow" style="height: 149px;" width="1048"><caption>Discussion Flow</caption>
+        <thead>
+          <tr>
+            <th colspan="2">&nbsp;</th>
+            <th colspan="4"><em>Available Options in the "Action Column" as seen by</em></th>
+          </tr>
+          <tr>
+            <th>Flow</th>
+            <th>State Column</th>
+            <th>Member</th>
+            <th>Officer, Staff, Editor</th>
+            <th>Admin</th>
+            <th>Problems</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <ul>
+                <li>Member submits Change Request (CR) from the Work Program tab</li>
+                <li>The member that has submitted the CR should have the option to mark it as a "<strong>Withdrawn</strong>"</li>
+                <li>After submitting the CR, the changes in the Change Request tab are --&gt;</li>
+              </ul>
+            </td>
+            <td>"Submitted"</td>
+            <td>"Withdrawn"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If the member marked as a "<strong>Withdrawn</strong>" then, see columns on the left</li>
+                <li>There is no further discussion or work on this CR unless Admin reverse the status</li>
+              </ul>
+            </td>
+            <td>"Withdrawn"</td>
+            <td>&lt;blank&gt;</td>
+            <td>&lt;blank&gt;</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If the Officer, Staff or Editor marked the state of the CR as a "<strong>Noted</strong>", then --&gt;</li>
+                <li>If the group wants to change this state they will have to request to Admin</li>
+              </ul>
+            </td>
+            <td>"Noted"</td>
+            <td>&lt;blank&gt;</td>
+            <td>&lt;blank&gt;</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If the CR is marked as a "<strong>Postponed</strong>", then --&gt;
+                  <ul>
+                    <li>The CR will be discussed another time.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>"Postponed"</td>
+            <td>&lt;blank&gt;</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If the CR is marked as a "<strong>Revision</strong>"
+                  <ul>
+                    <li>It means that the document is not accepted with its current content but there are some aspects <br />
+                       that may be acceptable if the submitter change the CR according tot he feedback provided.</li>
+                    <li>In this case the submitter will see in the "<strong>Actions</strong>" column the "State"&nbsp; "<strong>Revision</strong>".</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>"Revision"</td>
+            <td>"Revision"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If the submitter, clicks in the "<strong>Revision</strong>" button, then --&gt;
+                  <ul>
+                    <li>&nbsp;the CR will appear again in the list of CRs to edit, Work Program private tab.</li>
+                    <li>It is at this time when the submitter decides if he wants to make this CR public available or only available to a few<br />
+                       members.</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>"Revision"</td>
+            <td>&lt;blank&gt;</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If the CR is marked as a "<strong>Agreed</strong>", then --&gt;
+                  <ul>
+                    <li>The CR can be merged, it may be decided by the Chair to merge a later stage rather than during the meeting</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>"Agreed"</td>
+            <td>&lt;blank&gt;</td>
+            <td>"Merge"</td>
+            <td>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed", "Merge"</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If click in "<strong>Merge</strong>", then a pop up window will ask for confirmation. If confirmed, then the CR will be merged in the corresponding baseline.<br />
+                  <ul>
+                    <li>If there is no conflict at the time of merging then --&gt;</li>
+                  </ul>
+                </li>
+              </ul>
+            </td>
+            <td>"Merged"</td>
+            <td>&lt;blank&gt;</td>
+            <td>&lt;blank&gt;</td>
+            <td>
+              <p>&lt;blank&gt;</p>
+              <p>Question: How to undo merge?</p>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>If during the merge there is a conflict, then --&gt;</li>
+              </ul>
+            </td>
+            <td>"Conflict"</td>
+            <td>&lt;blank&gt;</td>
+            <td>
+              <p>"Merge"</p>
+              <p>Question: How to resolve merge?</p>
+            </td>
+            <td>
+              <p>"Withdrawn", "Noted", "Postponed", "Revision", "Agreed", "Merge"</p>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>After the conflict is resolved, then --&gt;&nbsp; refer to "<strong>Merge</strong>" without conflict.</li>
+              </ul>
+            </td>
+            <td>"Merged"</td>
+            <td>&lt;blank&gt;</td>
+            <td>&lt;blank&gt;</td>
+            <td>
+              <p>&lt;blank&gt;</p>
+              <p>Question: How to undo merge?</p>
+            </td>
+            <td>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </section>
+  <section>
+    <h2>Repository</h2>
+    <p>A click in this tab will take you to the corresponding GitHub repository.</p>
+    <p>Please note that if you encountered a "<strong>404 Error message</strong>", it means that you don't have the correct access rights to view the repository.</p>
+    <table id="t-public" style="height: 112px;" width="1014"><caption>Repository</caption>
+      <thead>
         <tr>
-          <td><em>Save</em></td>
+          <th>Operation</th>
+          <th>Description</th>
+          <th>Problem</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Public</td>
           <td>
             <ul>
-              <li>&nbsp;Click "Save" button to save all the changes, "commits" done until that time.</li>
+              <li>A click in this link will take you to the corresponding GitHub repository</li>
             </ul>
           </td>
           <td>&nbsp;</td>
@@ -1419,4 +1287,135 @@
     </table>
     <p>&nbsp;</p>
   </section>
-</body>
+  <section>
+    <h2>Publish</h2>
+    <p>This tab is used by the Admin to publish the baselines in the repository.</p>
+    <table id="t-publish" style="height: 94px;" width="1045"><caption>Publish</caption>
+      <thead>
+        <tr>
+          <th>Operation</th>
+          <th>Description</th>
+          <th>Problems</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><em>Publish</em></td>
+          <td>
+            <ul>
+              <li>&nbsp;A click in the "Publish" button will publish the baselines in the repository.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>&nbsp;P2. Can we just published specific baselines rather than all the baselines in the repo?</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><em>Document Baselines</em></td>
+          <td>
+            <ul>
+              <li>List of all the baselines available in the repository.</li>
+            </ul>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><em>Actions</em></td>
+          <td>
+            <ul>
+              <li>&nbsp;A click in "<strong>Edit Pre-publish Version</strong>" button will allow admin to edit the metada information of the document, (baseline front cover).<br />
+                <ul>
+                  <li>Also, it is possible to provide editorial changes to the body of the document.</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li><strong>P1 - 30th Mar</strong>. At the time of publication the content in the HEAD is removed.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+  </section>
+</section>
+<section>
+  <h2>Functions Available on Editor Mode</h2>
+  <p>This section explains what functions are available once the editor has been invoked.</p>
+  <table id="t-editor-mode" style="height: 522px;" width="889"><caption>Functions Available on Editor Mode</caption>
+    <thead>
+      <tr>
+        <th>Operations</th>
+        <th>Description</th>
+        <th>Problems</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><em>Preview</em></td>
+        <td>
+          <ul>
+            <li>Click in "<strong>Preview</strong>" button if you want to see how the document will look like once it is rendered by the browser.</li>
+            <li>To come back on the Editor Mode, just click anywhere outside of the rendered document</li>
+          </ul>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><em>Edit Document Head</em></td>
+        <td>
+          <ul>
+            <li>Regular Members don't have access to this functionality.</li>
+            <li>Only Officers, Editors and OMA staff is able to view "<strong>Edit Document Head</strong>" button.<br />
+              <ul>
+                <li>A click in this button will show the configuration of the document contained int he HEAD part of the html file.</li>
+              </ul>
+            </li>
+            <li>The configuration options are: (pending)</li>
+          </ul>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td><em>Collaboration</em></td>
+        <td>
+          <ul>
+            <li>This function is available to everyone and allows you to make your private Change Request:
+              <ul>
+                <li><strong>Private</strong> (default)</li>
+                <li><strong>Public</strong>, or</li>
+                <li><strong>Share with a select group of individuals</strong></li>
+              </ul>
+            </li>
+            <li>A click in one of the options that is not "<strong>Private</strong>" will make your Change Request available to everyone or to a selected group of people.
+              <ul>
+                <li>Once the Change Request is submitted to OMA, (by you or your collaborates) the Change Request will not be longer available for editing again.</li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li><strong>P1 - 3rd April</strong>. See comments on "Your Change Request" Section.</li>
+          </ul>
+          <p>Note: I believe that this problems could be resolved by refresing the system before saving in case the document is being shared and it has been submitted by one of the parties.</p>
+          <p>&nbsp;</p>
+        </td>
+      </tr>
+      <tr>
+        <td><em>Save</em></td>
+        <td>
+          <ul>
+            <li>&nbsp;Click "Save" button to save all the changes, "commits" done until that time.</li>
+          </ul>
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>&nbsp;</p>
+</section>
